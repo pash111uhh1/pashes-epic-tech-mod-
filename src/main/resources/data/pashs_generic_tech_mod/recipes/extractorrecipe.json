@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "6": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "8": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:extractor",
+    "count": 1
+  }
+}

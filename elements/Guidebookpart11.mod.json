@@ -1,0 +1,174 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 96,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "how to use ore purifier",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "how to use ore purifier",
+          "x": 146,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "here is how you use ore purifier! ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "here is how you use ore purifier! ",
+          "x": 100,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 100,
+          "y": 65
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "gold or copper or iron or tin ore any amount",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "gold or copper or iron or tin ore any amount",
+          "x": 99,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "platingmachine.png",
+          "use1Xscale": true,
+          "name": "platingmachine.png",
+          "x": 131,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "insert any ore here",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "insert any ore here",
+          "x": 103,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "insert refined oil here",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "insert refined oil here",
+          "x": 140,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "output",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "output",
+          "x": 254,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "refined oil",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "refined oil",
+          "x": 99,
+          "y": 87
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Turnpage21"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "->",
+          "x": 287,
+          "y": 34
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

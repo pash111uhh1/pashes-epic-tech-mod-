@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:heat_dissipating_element",
+    "count": 1
+  }
+}

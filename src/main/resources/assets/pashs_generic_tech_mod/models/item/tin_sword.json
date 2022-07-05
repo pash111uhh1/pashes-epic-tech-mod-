@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pashs_generic_tech_mod:items/tin_sword"
+  }
+}

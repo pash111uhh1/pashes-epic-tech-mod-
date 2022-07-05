@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pashs_generic_tech_mod:oilextractor"
+    },
+    "title": {
+      "translate": "advancements.infiniteoil_yay.title"
+    },
+    "description": {
+      "translate": "advancements.infiniteoil_yay.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "infiniteoil_yay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pashs_generic_tech_mod:oilextractor"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pashs_generic_tech_mod:americandream"
+}

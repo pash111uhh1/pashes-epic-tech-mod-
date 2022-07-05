@@ -1,0 +1,161 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "table of contents",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "table of contents",
+          "x": 168,
+          "y": 33
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "extractor",
+          "onClick": {
+            "name": "Turnpage19"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "extractor",
+          "x": 102,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "foodstuffs",
+          "onClick": {
+            "name": "Turnpage22"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "foodstuffs",
+          "x": 103,
+          "y": 82
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "advanced circuit",
+          "onClick": {
+            "name": "Turnpage12"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "advanced circuit",
+          "x": 103,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "REQUIRES 10 RESEARCH POINTS",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Mommacanidisplaymyfriend1"
+          },
+          "name": "REQUIRES 10 RESEARCH POINTS",
+          "x": 104,
+          "y": 157
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "research station",
+          "onClick": {
+            "name": "Turnpagetoresearch"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "research station",
+          "x": 102,
+          "y": 129
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "research points - <VAR:reaserchdonealready>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "research points - <VAR:reaserchdonealready>",
+          "x": 102,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "teleporter",
+          "onClick": {
+            "name": "Turnpagetoteleport"
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplayples1"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "teleporter",
+          "x": 102,
+          "y": 151
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 97,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "how to use plating machine",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "how to use plating machine",
+          "x": 146,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "here is how you use plating machine! ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "here is how you use plating machine! ",
+          "x": 100,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 100,
+          "y": 65
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Turnpage11"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "->",
+          "x": 284,
+          "y": 32
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "copper or gold or iron ingot ( any amount)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "copper or gold or iron ingot ( any amount)",
+          "x": 99,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "amdronkblackscotteshcyclops.png",
+          "use1Xscale": true,
+          "name": "amdronkblackscotteshcyclops.png",
+          "x": 131,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "insert any ingot here",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "insert any ingot here",
+          "x": 101,
+          "y": 156
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "insert refined oil here",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "insert refined oil here",
+          "x": 142,
+          "y": 177
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "output",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "output",
+          "x": 277,
+          "y": 155
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "refined oil",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "refined oil",
+          "x": 99,
+          "y": 87
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

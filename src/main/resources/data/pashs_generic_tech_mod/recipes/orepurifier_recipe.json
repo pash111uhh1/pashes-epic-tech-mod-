@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "1": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:machine_casing"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "6": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:curcuit"
+    },
+    "8": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:orepurifier",
+    "count": 1
+  }
+}

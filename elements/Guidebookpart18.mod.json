@@ -1,0 +1,108 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "heat dissipating element",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "heat dissipating element",
+          "x": 151,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 100,
+          "y": 85
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "copper x5",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "copper x5",
+          "x": 101,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "dissipates heat",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "dissipates heat",
+          "x": 103,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dfhgdhgdhdshdthdfhsrhrtrhrtrtr.png",
+          "use1Xscale": true,
+          "name": "dfhgdhgdhdshdthdfhsrhrtrhrtrtr.png",
+          "x": 189,
+          "y": 84
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

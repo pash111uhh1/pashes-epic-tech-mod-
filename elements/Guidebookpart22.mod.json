@@ -1,0 +1,161 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "chocolate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "chocolate",
+          "x": 165,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 99,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Turnpage23"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "->",
+          "x": 284,
+          "y": 32
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "cocoa beans",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "cocoa beans",
+          "x": 100,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "paper",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "paper",
+          "x": 100,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuckmeharddaddy.png",
+          "use1Xscale": true,
+          "name": "fuckmeharddaddy.png",
+          "x": 203,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "stats:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "stats:",
+          "x": 103,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "saturation: 0,3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "saturation: 0,3",
+          "x": 101,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "food bar: 4 ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "food bar: 4 ",
+          "x": 101,
+          "y": 133
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

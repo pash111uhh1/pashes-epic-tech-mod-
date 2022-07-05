@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:tin_ingot"
+    },
+    "1": {
+      "item": "pashs_generic_tech_mod:tin_ingot"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:tinplate",
+    "count": 3
+  }
+}

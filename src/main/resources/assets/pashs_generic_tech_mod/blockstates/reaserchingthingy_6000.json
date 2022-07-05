@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pashs_generic_tech_mod:block/reaserchingthingy_6000"
+    },
+    "facing=east": {
+      "model": "pashs_generic_tech_mod:block/reaserchingthingy_6000",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pashs_generic_tech_mod:block/reaserchingthingy_6000",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pashs_generic_tech_mod:block/reaserchingthingy_6000",
+      "y": 270
+    }
+  }
+}

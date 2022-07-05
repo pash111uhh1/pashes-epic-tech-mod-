@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pashs_generic_tech_mod:blocks/img_1901",
+    "up": "pashs_generic_tech_mod:blocks/img_1901",
+    "north": "pashs_generic_tech_mod:blocks/img_1901",
+    "east": "pashs_generic_tech_mod:blocks/img_1901",
+    "south": "pashs_generic_tech_mod:blocks/img_1901",
+    "west": "pashs_generic_tech_mod:blocks/img_1901",
+    "particle": "pashs_generic_tech_mod:blocks/img_1901"
+  }
+}

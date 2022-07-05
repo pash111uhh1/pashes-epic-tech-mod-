@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "1": {
+      "item": "minecraft:anvil"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:advancedcurcuit"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:machine_casing"
+    },
+    "6": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "8": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:platingmachine",
+    "count": 1
+  }
+}

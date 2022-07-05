@@ -1,0 +1,108 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 94,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "tin plate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "tin plate",
+          "x": 180,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "this is just a tin plate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "this is just a tin plate",
+          "x": 109,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 105,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "tin ingot x3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "tin ingot x3",
+          "x": 104,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dehrtfhtddhndebfhrdrh.png",
+          "use1Xscale": true,
+          "name": "dehrtfhtddhndebfhrdrh.png",
+          "x": 190,
+          "y": 83
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

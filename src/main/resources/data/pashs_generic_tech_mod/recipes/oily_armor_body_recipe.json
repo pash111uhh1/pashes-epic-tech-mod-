@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:oilcan"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "6": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    },
+    "8": {
+      "item": "pashs_generic_tech_mod:goldenplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:oily_armor_chestplate",
+    "count": 1
+  }
+}

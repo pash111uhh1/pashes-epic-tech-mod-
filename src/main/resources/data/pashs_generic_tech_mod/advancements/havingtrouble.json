@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pashs_generic_tech_mod:orepurifier"
+    },
+    "title": {
+      "translate": "advancements.havingtrouble.title"
+    },
+    "description": {
+      "translate": "advancements.havingtrouble.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "havingtrouble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pashs_generic_tech_mod:orepurifier"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pashs_generic_tech_mod:americandream"
+}

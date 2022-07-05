@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "pashs_generic_tech_mod:oilcanfull"
+    },
+    "title": {
+      "translate": "advancements.americandream.title"
+    },
+    "description": {
+      "translate": "advancements.americandream.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "americandream": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "pashs_generic_tech_mod:genericrecipe"
+    ]
+  }
+}

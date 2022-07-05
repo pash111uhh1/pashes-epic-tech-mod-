@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "pashs_generic_tech_mod:tin_ingot"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "4": {
+      "item": "minecraft:oak_planks"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:advancedcurcuit"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:reaserchingthingy_6000",
+    "count": 1
+  }
+}

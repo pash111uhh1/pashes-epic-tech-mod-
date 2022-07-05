@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "pashs_generic_tech_mod:oilcan"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:curcuit"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:filteringelement"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:machine_casing"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:oilrefinery",
+    "count": 1
+  }
+}

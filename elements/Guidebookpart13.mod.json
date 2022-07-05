@@ -1,0 +1,125 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 92,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oily armor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oily armor",
+          "x": 165,
+          "y": 33
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Turnpage14"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "->",
+          "x": 284,
+          "y": 32
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oily armor uses 1 refined oil each day",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oily armor uses 1 refined oil each day",
+          "x": 100,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oily armor requires refined oil ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oily armor requires refined oil ",
+          "x": 103,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "will damage you if you dont have enough",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "will damage you if you dont have enough",
+          "x": 102,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "refined oil",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "refined oil",
+          "x": 101,
+          "y": 84
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

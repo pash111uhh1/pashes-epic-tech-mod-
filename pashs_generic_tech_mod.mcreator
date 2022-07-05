@@ -1,0 +1,2675 @@
+{
+  "mod_elements": [
+    {
+      "name": "Oilcan",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilcan",
+      "path": "~/oil"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "gb": false
+      },
+      "path": "~/oil"
+    },
+    {
+      "name": "Oilcanfull",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilcanfull",
+      "path": "~/oil"
+    },
+    {
+      "name": "Oilasfuel",
+      "type": "fuel",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilasfuel",
+      "path": "~/oil"
+    },
+    {
+      "name": "Oilcanrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilcanrecipe",
+      "path": "~/oil"
+    },
+    {
+      "name": "Americandream",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "americandream",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Oilrefinery",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilrefinery",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "OilMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/oil"
+    },
+    {
+      "name": "OilrefineryGUI",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilrefinery_gui",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Filteringelement",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filteringelement",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Pashsgenerictechmod",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pashsgenerictechmod",
+      "path": "~/oil"
+    },
+    {
+      "name": "Ironplate",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplate",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Filterelementcraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filterelementcraft",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Ironplatecraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplatecraft",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "OoomahgahdweturncrudeoilintoREALstuff",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ooomahgahdweturncrudeoilinto_rea_lstuff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Oilygrounds",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilygrounds",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Oilstructure",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilstructure",
+      "path": "~/oil"
+    },
+    {
+      "name": "MachineCasing",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_casing",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Copperplate",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperplate",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Copperplatecraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperplatecraft",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Machinecasingrecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machinecasingrecipe",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Goldenplate",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenplate",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Goldenplatecraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenplatecraft",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Curcuit",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curcuit",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Curcuitboardrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curcuitboardrecipe",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Orepurifier",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orepurifier",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Orepurifiergui",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orepurifiergui",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Crushediron",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushediron",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Crushedirontoiron",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedirontoiron",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Crushedcopper",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedcopper",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Crushedcoppertocopper",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedcoppertocopper",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Crushedgold",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedgold",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Crushedgoldtogoldenore",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushedgoldtogoldenore",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "Orepurifierprotocol",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orepurifierprotocol",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "OrepurifierRECIPE",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orepurifier_recipe",
+      "path": "~/orepurifier"
+    },
+    {
+      "name": "OilrefineryRECIPE",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilrefinery_recipe",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Platingmachine",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platingmachine",
+      "path": "~/plating machine"
+    },
+    {
+      "name": "Platingmachineyoinkedprocedure",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platingmachineyoinkedprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plating machine"
+    },
+    {
+      "name": "PlatingmachineGUI",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platingmachine_gui",
+      "path": "~/plating machine"
+    },
+    {
+      "name": "Advancedcurcuit",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedcurcuit",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Advancedcircuitcraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedcircuitcraft",
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Platingmachjinerecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platingmachjinerecipe",
+      "path": "~/plating machine"
+    },
+    {
+      "name": "OilcanRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilcan_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/oil"
+    },
+    {
+      "name": "OilyArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/oilyarmor"
+    },
+    {
+      "name": "OilyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_armor_helmet_recipe",
+      "path": "~/oilyarmor"
+    },
+    {
+      "name": "OilyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_armor_body_recipe",
+      "path": "~/oilyarmor"
+    },
+    {
+      "name": "OilyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_armor_leggings_recipe",
+      "path": "~/oilyarmor"
+    },
+    {
+      "name": "OilyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_armor_boots_recipe",
+      "path": "~/oilyarmor"
+    },
+    {
+      "name": "OilyArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/oilyarmor"
+    },
+    {
+      "name": "Generictechmodbook",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generictechmodbook",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookguipart1",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookguipart_1",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookguipart2",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookguipart_2",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage1",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "WeGoBackNowBish",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "we_go_back_now_bish",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage2",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage3",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookguipart3",
+      "type": "gui",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookguipart_3",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage4",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart4",
+      "type": "gui",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_4",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart5",
+      "type": "gui",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_5",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage5",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage6",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart6",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_6",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage7",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart7",
+      "type": "gui",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_7",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart8",
+      "type": "gui",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_8",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage8",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_8",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart9",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_9",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage9",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_9",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage10",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_10",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart10",
+      "type": "gui",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_10",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage11",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_11",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart11",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_11",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart12",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_12",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage12",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage13",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_13",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart13",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_13",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage14",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_14",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart14",
+      "type": "gui",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_14",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage15",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_15",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart15",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_15",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage16",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_16",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart16",
+      "type": "gui",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_16",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage17",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_17",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart17",
+      "type": "gui",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_17",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Iregretmydicidiot",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iregretmydicidiot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Bloodyhell",
+      "type": "gui",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodyhell",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Iregretmydicision1",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iregretmydicision_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Blooodespy",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooodespy",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage18",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_18",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart18",
+      "type": "gui",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_18",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Yoinkedoilextractorprocedure",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoinkedoilextractorprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Oilextractorgui",
+      "type": "gui",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilextractorgui",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Oilextractor",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilextractor",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "HeatDissipatingElement",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_dissipating_element",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Heatdisspationcraft",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatdisspationcraft",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Extractor",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractor",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Extractorrecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractorrecipe",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Oilextractorrecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oilextractorrecipe",
+      "path": "~/oilextractor"
+    },
+    {
+      "name": "Turnpage19",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_19",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart19",
+      "type": "gui",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_19",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage20",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_20",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart20",
+      "type": "gui",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_20",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage21",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_21",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart21",
+      "type": "gui",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_21",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage22",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_22",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookpart22",
+      "type": "gui",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookpart_22",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Chocolate",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate",
+      "path": "~/foodstruffs"
+    },
+    {
+      "name": "Chocolaterecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolaterecipe",
+      "path": "~/foodstruffs"
+    },
+    {
+      "name": "Wheatcookie",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatcookie",
+      "path": "~/foodstruffs"
+    },
+    {
+      "name": "Wheatcookierecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatcookierecipe",
+      "path": "~/foodstruffs"
+    },
+    {
+      "name": "Guidebook23",
+      "type": "gui",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_23",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpage23",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpage_23",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "RANDOMGOBRRRRRR",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomgobrrrrrr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/general_purpose"
+    },
+    {
+      "name": "Startguidebookgui",
+      "type": "gui",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startguidebookgui",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Startguidebookgui1",
+      "type": "gui",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startguidebookgui_1",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Gotostartguidebookgui1",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gotostartguidebookgui_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Genericrecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genericrecipe",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Torefiningandbeyond",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torefiningandbeyond",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Oooverynice",
+      "type": "achievement",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oooverynice",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Havingtrouble",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havingtrouble",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Havingtroublemakeitdouble",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havingtroublemakeitdouble",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Makeitdoublehelper",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeitdoublehelper",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/advancments"
+    },
+    {
+      "name": "Platingmachineadv",
+      "type": "achievement",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platingmachineadv",
+      "path": "~/advancments"
+    },
+    {
+      "name": "InfiniteoilYAY",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniteoil_yay",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Toinfinityandbeyond",
+      "type": "achievement",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toinfinityandbeyond",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Ewitsoily",
+      "type": "achievement",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewitsoily",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Moreoilandstuff",
+      "type": "achievement",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moreoilandstuff",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Pleasebringoil",
+      "type": "achievement",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pleasebringoil",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Americanboot",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "americanboot",
+      "path": "~/advancments"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_block_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_ore_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinOreSmelting",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_smelting",
+      "path": "~/tin"
+    },
+    {
+      "name": "Tinplate",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinplate",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinPickaxe",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinAxe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinSword",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinShovel",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinHoe",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinAxeRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinSwordRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinShovelRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "TinHoeRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe_recipe",
+      "path": "~/tin"
+    },
+    {
+      "name": "Tindust",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tindust",
+      "path": "~/tin"
+    },
+    {
+      "name": "Tindusttoingots",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tindusttoingots",
+      "path": "~/tin"
+    },
+    {
+      "name": "Tinplateuniffecent",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinplateuniffecent",
+      "path": "~/tin"
+    },
+    {
+      "name": "Turnpagewhatever",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpagewhatever",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebnookpart7",
+      "type": "gui",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebnookpart_7",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Reaserchingthingy6000",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaserchingthingy_6000",
+      "path": "~/reasearched9000"
+    },
+    {
+      "name": "Researchstationrecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "researchstationrecipe",
+      "path": "~/reasearched9000"
+    },
+    {
+      "name": "ReaserchGUI",
+      "type": "gui",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reaserch_gui",
+      "path": "~/reasearched9000"
+    },
+    {
+      "name": "Research",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "research",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/reasearched9000"
+    },
+    {
+      "name": "Mommecanidisplayples1",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mommecanidisplayples_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Mommacanidisplaymyfriend1",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mommacanidisplaymyfriend_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebookorganicmatter",
+      "type": "gui",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookorganicmatter",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpagetoresearch",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpagetoresearch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Refinedoil",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinedoil",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "TELEPORTEROUTPUT",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporteroutput",
+      "path": "~/teleporter"
+    },
+    {
+      "name": "Mewheniteleport",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mewheniteleport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/teleporter"
+    },
+    {
+      "name": "Teleportgui",
+      "type": "gui",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportgui",
+      "path": "~/teleporter"
+    },
+    {
+      "name": "Teleporttuningtool",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporttuningtool",
+      "path": "~/teleporter"
+    },
+    {
+      "name": "Guidebookteleporters",
+      "type": "gui",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookteleporters",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpagetoteleport",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpagetoteleport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Teleporterrecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporterrecipe",
+      "path": "~/teleporter"
+    },
+    {
+      "name": "Teleporttuningtoolrecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporttuningtoolrecipe",
+      "path": "~/teleporter"
+    },
+    {
+      "name": "Guidebookteleporterstuning",
+      "type": "gui",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebookteleporterstuning",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Guidebooktunningtoolmoveto",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebooktunningtoolmoveto",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "ResetresearchtoolRightclicked",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resetresearchtool_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reasearched9000"
+    },
+    {
+      "name": "Resetresearchtool",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resetresearchtool",
+      "path": "~/reasearched9000"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "oilextractoramountofcans",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "RANDOMNUMBEERRRRR",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "reaserchdonealready",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "researchstationtext",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"initial value\""
+    },
+    {
+      "name": "quarryfuelleft",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "teleporthelper",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "no teleporters have been asigned"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.havingtrouble.descr": "make your first ingot crusher",
+      "advancements.havingtroublemakeitdouble.descr": "crush your first ingots",
+      "advancements.moreoilandstuff.title": "you did not forgot about the oil, right?",
+      "advancements.torefiningandbeyond.title": "very refined",
+      "item.pashs_generic_tech_mod.tin_sword": "Tin Sword",
+      "advancements.americandream.title": "American dream",
+      "advancements.platingmachineadv.title": "MORE PLATES! MORE POWER!",
+      "block.pashs_generic_tech_mod.platingmachine": "Plating machine",
+      "advancements.americandream.descr": "find oil",
+      "item.pashs_generic_tech_mod.wheatcookie": "Wheat cookie",
+      "item.pashs_generic_tech_mod.tin_shovel": "Tin Shovel",
+      "advancements.havingtrouble.title": "Having trouble?",
+      "advancements.americanboot.descr": "make oily boots",
+      "advancements.platingmachineadv.descr": "make a plating machine",
+      "advancements.havingtroublemakeitdouble.title": "make it double!",
+      "item.pashs_generic_tech_mod.oily_armor_chestplate": "Oily Chestplate",
+      "advancements.moreoilandstuff.descr": "make an oily chestplate",
+      "advancements.torefiningandbeyond.descr": "make your first refined oil!",
+      "item.pashs_generic_tech_mod.teleporttuningtool": "teleporter tuning tool",
+      "item.pashs_generic_tech_mod.tin_pickaxe": "Tin Pickaxe",
+      "item.pashs_generic_tech_mod.filteringelement": "filtering sponge",
+      "block.pashs_generic_tech_mod.reaserchingthingy_6000": "Reaserch station 6000",
+      "item.pashs_generic_tech_mod.tin_ingot": "Tin",
+      "advancements.oooverynice.title": "lets refine!",
+      "block.pashs_generic_tech_mod.tin_block": "Block of Tin",
+      "item.pashs_generic_tech_mod.crushedgold": "purified gold",
+      "item.pashs_generic_tech_mod.extractor": "Extractor",
+      "block.pashs_generic_tech_mod.oil": "Oil",
+      "item.pashs_generic_tech_mod.copperplate": "copper plate",
+      "item.pashs_generic_tech_mod.oil_bucket": "Oil Bucket",
+      "advancements.infiniteoil_yay.title": "Infinite oil",
+      "item.pashs_generic_tech_mod.tindust": "Tin dust",
+      "item.pashs_generic_tech_mod.curcuit": "Circuit",
+      "item.pashs_generic_tech_mod.refinedoil": "Refinedoil",
+      "item.pashs_generic_tech_mod.crushediron": "purified iron",
+      "item.pashs_generic_tech_mod.advancedcurcuit": "Advanced circuit",
+      "item.pashs_generic_tech_mod.oily_armor_helmet": "Oily Helmet",
+      "advancements.infiniteoil_yay.descr": "make an oil extractor",
+      "advancements.pleasebringoil.descr": "make oily leggings",
+      "item.pashs_generic_tech_mod.oilcanfull": "Oil",
+      "advancements.ewitsoily.descr": "make an oily helmet",
+      "item.pashs_generic_tech_mod.heat_dissipating_element": "Heat Dissipating Element",
+      "block.pashs_generic_tech_mod.tin_ore": "Tin Ore",
+      "block.pashs_generic_tech_mod.orepurifier": "ingot grinder",
+      "item.pashs_generic_tech_mod.ironplate": "Iron plate",
+      "itemGroup.tabpashsgenerictechmod": "Pash\u0027s generic tech mod",
+      "item.pashs_generic_tech_mod.crushedcopper": "purified copper",
+      "block.pashs_generic_tech_mod.oilextractor": "Oil extractor",
+      "block.pashs_generic_tech_mod.oilygrounds": "Oily grounds",
+      "advancements.pleasebringoil.title": "please, bring oil",
+      "item.pashs_generic_tech_mod.tin_axe": "Tin Axe",
+      "fluid.pashs_generic_tech_mod.oil": "Oil",
+      "advancements.toinfinityandbeyond.title": "To infinity and BEYOND!",
+      "item.pashs_generic_tech_mod.tinplate": "Tin plate",
+      "item.pashs_generic_tech_mod.chocolate": "Chocolate",
+      "advancements.toinfinityandbeyond.descr": "make a stack of refined oil",
+      "block.pashs_generic_tech_mod.oilrefinery": "Oil refinery",
+      "advancements.ewitsoily.title": "dont forget about oil!",
+      "item.pashs_generic_tech_mod.goldenplate": "golden plate",
+      "advancements.americanboot.title": "american boot",
+      "item.pashs_generic_tech_mod.tin_hoe": "Tin Hoe",
+      "item.pashs_generic_tech_mod.oily_armor_leggings": "Oily Leggings",
+      "advancements.oooverynice.descr": "make your first oil refinery!",
+      "item.pashs_generic_tech_mod.oilcan": "Oil canister",
+      "item.pashs_generic_tech_mod.resetresearchtool": "research points reset tool",
+      "block.pashs_generic_tech_mod.machine_casing": "Machine Casing",
+      "block.pashs_generic_tech_mod.teleporteroutput": "teleporter",
+      "item.pashs_generic_tech_mod.oily_armor_boots": "Oily Boots",
+      "item.pashs_generic_tech_mod.generictechmodbook": "Generic tech mod guide book"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "oilrefinerystuff",
+        "children": []
+      },
+      {
+        "name": "general_purpose",
+        "children": []
+      },
+      {
+        "name": "oil",
+        "children": []
+      },
+      {
+        "name": "orepurifier",
+        "children": []
+      },
+      {
+        "name": "plating machine",
+        "children": []
+      },
+      {
+        "name": "oilyarmor",
+        "children": []
+      },
+      {
+        "name": "generictechmodguidencebook",
+        "children": []
+      },
+      {
+        "name": "oilextractor",
+        "children": []
+      },
+      {
+        "name": "foodstruffs",
+        "children": []
+      },
+      {
+        "name": "advancments",
+        "children": []
+      },
+      {
+        "name": "tin",
+        "children": []
+      },
+      {
+        "name": "reasearched9000",
+        "children": []
+      },
+      {
+        "name": "teleporter",
+        "children": []
+      },
+      {
+        "name": "jetpacc",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "pashs_generic_tech_mod",
+    "modName": "pash\u0027s generic tech mod",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.pashsgenerictechmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

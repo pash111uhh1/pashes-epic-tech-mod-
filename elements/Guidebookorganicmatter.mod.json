@@ -1,0 +1,160 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 94,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "research station",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "research station",
+          "x": 180,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to make more advanced machines you need",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "to make more advanced machines you need",
+          "x": 109,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 105,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "copper plate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "copper plate",
+          "x": 104,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dfgrxdfgrvxdfgrvdfgrdfgrrdg.png",
+          "use1Xscale": true,
+          "name": "dfgrxdfgrvxdfgrvdfgrdfgrrdg.png",
+          "x": 190,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "wood plank",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "wood plank",
+          "x": 104,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "tin ingot",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "tin ingot",
+          "x": 104,
+          "y": 135
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "advanced circuit",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "advanced circuit",
+          "x": 103,
+          "y": 147
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to research them first!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "to research them first!",
+          "x": 109,
+          "y": 66
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

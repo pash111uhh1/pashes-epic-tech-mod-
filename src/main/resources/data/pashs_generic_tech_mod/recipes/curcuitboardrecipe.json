@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pashs_generic_tech_mod:goldenplate"
+  },
+  "addition": {
+    "item": "pashs_generic_tech_mod:copperplate"
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:curcuit"
+  }
+}

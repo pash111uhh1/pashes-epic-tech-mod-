@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pashs_generic_tech_mod:blocks/tin_ore",
+    "particle": "pashs_generic_tech_mod:blocks/tin_ore"
+  }
+}

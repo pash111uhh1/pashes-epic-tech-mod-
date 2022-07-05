@@ -1,0 +1,129 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 268,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "required materials",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "required materials",
+          "x": 233,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "research station",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "research station",
+          "x": 84,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "research status:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "research status:",
+          "x": 84,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 272,
+          "y": 63
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 274,
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "input",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "input",
+          "x": 270,
+          "y": 87
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "research",
+          "onClick": {
+            "name": "Research"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "research",
+          "x": 183,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " <VAR:researchstationtext>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " <VAR:researchstationtext>",
+          "x": 77,
+          "y": 72
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

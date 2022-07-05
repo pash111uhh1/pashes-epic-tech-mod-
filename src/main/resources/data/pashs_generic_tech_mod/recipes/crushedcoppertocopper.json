@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "pashs_generic_tech_mod:crushedcopper"
+  },
+  "result": "minecraft:copper_ingot"
+}

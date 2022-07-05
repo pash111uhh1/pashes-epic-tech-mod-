@@ -1,0 +1,134 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 94,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "machine casing",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "machine casing",
+          "x": 180,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "allows all the components to become an ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "allows all the components to become an ",
+          "x": 100,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 105,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "copper plate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "copper plate",
+          "x": 107,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dfgsdfsghgtudygrsjyhtgtyjkiuyikooliloppopoo-.png",
+          "use1Xscale": true,
+          "name": "dfgsdfsghgtudygrsjyhtgtyjkiuyikooliloppopoo-.png",
+          "x": 202,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "actual machine!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "actual machine!",
+          "x": 100,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "iron plate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "iron plate",
+          "x": 104,
+          "y": 124
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tinplate"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "CUSTOM:Tinplate"
+      },
+      {
+        "value": "CUSTOM:HeatDissipatingElement"
+      },
+      {
+        "value": "CUSTOM:MachineCasing"
+      },
+      {
+        "value": "CUSTOM:HeatDissipatingElement"
+      },
+      {
+        "value": "CUSTOM:Advancedcurcuit"
+      },
+      {
+        "value": "CUSTOM:Advancedcurcuit"
+      },
+      {
+        "value": "CUSTOM:Advancedcurcuit"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TELEPORTEROUTPUT"
+    },
+    "name": "teleporterrecipe",
+    "namespace": "mod"
+  }
+}

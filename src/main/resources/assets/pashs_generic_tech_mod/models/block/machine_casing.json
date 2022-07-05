@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pashs_generic_tech_mod:blocks/machine_blank_texture",
+    "up": "pashs_generic_tech_mod:blocks/machine_blank_texture",
+    "north": "pashs_generic_tech_mod:blocks/machine_blank_texture",
+    "east": "pashs_generic_tech_mod:blocks/machine_blank_texture",
+    "south": "pashs_generic_tech_mod:blocks/machine_blank_texture",
+    "west": "pashs_generic_tech_mod:blocks/machine_blank_texture",
+    "particle": "pashs_generic_tech_mod:blocks/machine_blank_texture"
+  }
+}

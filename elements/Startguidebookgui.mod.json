@@ -1,0 +1,238 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "table of contents",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "table of contents",
+          "x": 168,
+          "y": 33
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "oil refinery",
+          "onClick": {
+            "name": "Turnpage1"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "oil refinery",
+          "x": 102,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "oil canister",
+          "onClick": {
+            "name": "Turnpage2"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "oil canister",
+          "x": 102,
+          "y": 81
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "filtering sponge",
+          "onClick": {
+            "name": "Turnpage3"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "filtering sponge",
+          "x": 103,
+          "y": 103
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "plates",
+          "onClick": {
+            "name": "Turnpage4"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "plates",
+          "x": 103,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "circuit",
+          "onClick": {
+            "name": "Turnpage7"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "circuit",
+          "x": 103,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "machine casing",
+          "onClick": {
+            "name": "Turnpage8"
+          },
+          "width": 98,
+          "height": 20,
+          "name": "machine casing",
+          "x": 104,
+          "y": 174
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "how to use machines",
+          "onClick": {
+            "name": "Turnpage9"
+          },
+          "width": 124,
+          "height": 20,
+          "name": "how to use machines",
+          "x": 195,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "oily armor",
+          "onClick": {
+            "name": "Turnpage13"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "oily armor",
+          "x": 195,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ingot crusher",
+          "onClick": {
+            "name": "Iregretmydicidiot"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "ingot crusher",
+          "x": 218,
+          "y": 103
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "plating machine",
+          "onClick": {
+            "name": "Iregretmydicision1"
+          },
+          "width": 103,
+          "height": 20,
+          "name": "plating machine",
+          "x": 166,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "oil extractor",
+          "onClick": {
+            "name": "Turnpage20"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "oil extractor",
+          "x": 169,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "heat dissapator",
+          "width": 103,
+          "height": 20,
+          "name": "heat dissapator",
+          "x": 209,
+          "y": 174
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Gotostartguidebookgui1"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "->",
+          "x": 284,
+          "y": 33
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

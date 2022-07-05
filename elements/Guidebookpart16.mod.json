@@ -1,0 +1,135 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oily chestplate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oily chestplate",
+          "x": 165,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "!REQUIRES REFINED OIL!",
+          "color": {
+            "value": -65434,
+            "falpha": 0.0
+          },
+          "name": "!REQUIRES REFINED OIL!",
+          "x": 100,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 100,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Turnpage17"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "->",
+          "x": 284,
+          "y": 32
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oil canister",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oil canister",
+          "x": 101,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "golden plate x7",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "golden plate x7",
+          "x": 101,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "akmruyakmuytaktuatukuaktmtukyhjsdmgstujyhkdkmtuydktuymdktuydktuy.png",
+          "use1Xscale": true,
+          "name": "akmruyakmuytaktuatukuaktmtukyhjsdmgstujyhkdkmtuydktuymdktuydktuy.png",
+          "x": 203,
+          "y": 87
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

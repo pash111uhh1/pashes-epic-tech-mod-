@@ -1,0 +1,12 @@
+{
+  "parent": "pashs_generic_tech_mod:custom/letsseeeeeee",
+  "textures": {
+    "all": "pashs_generic_tech_mod:blocks/new_texture_of_oak_planks",
+    "particle": "pashs_generic_tech_mod:blocks/new_texture_of_oak_planks",
+    "1": "pashs_generic_tech_mod:blocks/48adcd04-b9b4-4f20-9003-c72ae30f1301",
+    "2": "pashs_generic_tech_mod:blocks/img_1973-removebg-preview",
+    "3": "pashs_generic_tech_mod:blocks/new_texture_of_oak_planks",
+    "4": "pashs_generic_tech_mod:blocks/advancedcircuit",
+    "missing": "pashs_generic_tech_mod:blocks/biezymiannyiehrtydehrtdehrtdehrtehrtehrthrtht"
+  }
+}

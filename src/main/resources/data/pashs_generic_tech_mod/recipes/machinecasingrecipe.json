@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "1": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:copperplate"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "6": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "8": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:machine_casing",
+    "count": 1
+  }
+}

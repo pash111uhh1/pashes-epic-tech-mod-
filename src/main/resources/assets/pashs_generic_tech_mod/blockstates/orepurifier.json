@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pashs_generic_tech_mod:block/orepurifier"
+    },
+    "facing=east": {
+      "model": "pashs_generic_tech_mod:block/orepurifier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pashs_generic_tech_mod:block/orepurifier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pashs_generic_tech_mod:block/orepurifier",
+      "y": 270
+    }
+  }
+}

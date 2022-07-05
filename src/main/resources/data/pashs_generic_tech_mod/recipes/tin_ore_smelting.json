@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.35,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "pashs_generic_tech_mod:tin_ore"
+  },
+  "result": "pashs_generic_tech_mod:tin_ingot"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "pashs_generic_tech_mod:advancedcurcuit"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:oilrefinery"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:machine_casing"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:heat_dissipating_element"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:extractor"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:oilextractor",
+    "count": 1
+  }
+}

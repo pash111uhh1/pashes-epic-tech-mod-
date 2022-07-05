@@ -1,0 +1,134 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ingot crusher",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ingot crusher",
+          "x": 165,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 100,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "machine casing",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "machine casing",
+          "x": 101,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "golden plate x4",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "golden plate x4",
+          "x": 101,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "erterhyrthrtahsthjrwhjrhjrwhjurutujrtujwuuetu.png",
+          "use1Xscale": true,
+          "name": "erterhyrthrtahsthjrwhjrhjrwhjurutujrtujwuuetu.png",
+          "x": 203,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "circuit x1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "circuit x1",
+          "x": 101,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "copper plate x3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "copper plate x3",
+          "x": 100,
+          "y": 129
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

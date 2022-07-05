@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pashs_generic_tech_mod:curcuit"
+  },
+  "addition": {
+    "item": "pashs_generic_tech_mod:crushediron"
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:advancedcurcuit"
+  }
+}

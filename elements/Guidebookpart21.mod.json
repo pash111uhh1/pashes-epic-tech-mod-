@@ -1,0 +1,121 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 95,
+          "y": 28
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oil extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oil extractor",
+          "x": 165,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "here is how to use oil extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "here is how to use oil extractor",
+          "x": 99,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ytjjtytyjtdtjjttjfnhjthjftujtjutyjytj.png",
+          "use1Xscale": true,
+          "name": "ytjjtytyjtdtjjttjfnhjthjftujtjutyjytj.png",
+          "x": 102,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "output",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "output",
+          "x": 281,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "refined oil",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "refined oil",
+          "x": 185,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oil canister",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oil canister",
+          "x": 100,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

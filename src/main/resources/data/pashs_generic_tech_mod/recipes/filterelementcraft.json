@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "1": {
+      "item": "minecraft:sponge"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:filteringelement",
+    "count": 8
+  }
+}

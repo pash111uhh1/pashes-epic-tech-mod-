@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "6": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "8": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:oilcan",
+    "count": 8
+  }
+}

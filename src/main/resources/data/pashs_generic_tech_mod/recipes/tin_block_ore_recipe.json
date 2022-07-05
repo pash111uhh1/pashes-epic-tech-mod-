@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pashs_generic_tech_mod:tin_block"
+    }
+  ],
+  "result": {
+    "item": "pashs_generic_tech_mod:tin_ingot",
+    "count": 9
+  }
+}

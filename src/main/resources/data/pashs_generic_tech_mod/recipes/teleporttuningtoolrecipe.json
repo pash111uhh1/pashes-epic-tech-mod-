@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone"
+    },
+    "4": {
+      "item": "minecraft:smooth_stone"
+    },
+    "5": {
+      "item": "minecraft:smooth_stone"
+    },
+    "7": {
+      "item": "pashs_generic_tech_mod:advancedcurcuit"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:teleporttuningtool",
+    "count": 1
+  }
+}
