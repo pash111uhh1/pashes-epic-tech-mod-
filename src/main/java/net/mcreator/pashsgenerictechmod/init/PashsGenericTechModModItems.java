@@ -23,6 +23,7 @@ import net.mcreator.pashsgenerictechmod.item.TinIngotItem;
 import net.mcreator.pashsgenerictechmod.item.TinHoeItem;
 import net.mcreator.pashsgenerictechmod.item.TinAxeItem;
 import net.mcreator.pashsgenerictechmod.item.TeleporttuningtoolItem;
+import net.mcreator.pashsgenerictechmod.item.Speed_bootsArmorItem;
 import net.mcreator.pashsgenerictechmod.item.ResetresearchtoolItem;
 import net.mcreator.pashsgenerictechmod.item.RefinedoilItem;
 import net.mcreator.pashsgenerictechmod.item.OilyArmorItem;
@@ -97,6 +98,8 @@ public class PashsGenericTechModModItems {
 			PashsGenericTechModModTabs.TAB_PASHSGENERICTECHMOD);
 	public static final RegistryObject<Item> TELEPORTTUNINGTOOL = REGISTRY.register("teleporttuningtool", () -> new TeleporttuningtoolItem());
 	public static final RegistryObject<Item> RESETRESEARCHTOOL = REGISTRY.register("resetresearchtool", () -> new ResetresearchtoolItem());
+	public static final RegistryObject<Item> SPEED_BOOTS_ARMOR_BOOTS = REGISTRY.register("speed_boots_armor_boots",
+			() -> new Speed_bootsArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

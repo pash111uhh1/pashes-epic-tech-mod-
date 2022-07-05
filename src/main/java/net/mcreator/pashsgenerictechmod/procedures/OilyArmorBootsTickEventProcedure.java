@@ -51,7 +51,7 @@ public class OilyArmorBootsTickEventProcedure {
 			}.start(world, 24000);
 		} else {
 			if (entity instanceof LivingEntity _entity)
-				_entity.hurt(new DamageSource("custom").bypassArmor(), 1);
+				_entity.hurt(new DamageSource("forgor").bypassArmor(), 1);
 		}
 	}
 }

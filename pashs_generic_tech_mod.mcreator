@@ -2479,6 +2479,30 @@
       "locked_code": false,
       "registry_name": "resetresearchtool",
       "path": "~/reasearched9000"
+    },
+    {
+      "name": "Speed_bootsArmor",
+      "type": "armor",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_boots_armor",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      },
+      "path": "~/speed boots"
+    },
+    {
+      "name": "Speed_bootsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_boots_armor_boots_recipe",
+      "path": "~/speed boots"
     }
   ],
   "variable_elements": [
@@ -2541,6 +2565,7 @@
       "advancements.moreoilandstuff.descr": "make an oily chestplate",
       "advancements.torefiningandbeyond.descr": "make your first refined oil!",
       "item.pashs_generic_tech_mod.teleporttuningtool": "teleporter tuning tool",
+      "item.pashs_generic_tech_mod.speed_boots_armor_chestplate": "Speed_boots Chestplate",
       "item.pashs_generic_tech_mod.tin_pickaxe": "Tin Pickaxe",
       "item.pashs_generic_tech_mod.filteringelement": "filtering sponge",
       "block.pashs_generic_tech_mod.reaserchingthingy_6000": "Reaserch station 6000",
@@ -2548,6 +2573,7 @@
       "advancements.oooverynice.title": "lets refine!",
       "block.pashs_generic_tech_mod.tin_block": "Block of Tin",
       "item.pashs_generic_tech_mod.crushedgold": "purified gold",
+      "item.pashs_generic_tech_mod.speed_boots_armor_boots": "speed boots",
       "item.pashs_generic_tech_mod.extractor": "Extractor",
       "block.pashs_generic_tech_mod.oil": "Oil",
       "item.pashs_generic_tech_mod.copperplate": "copper plate",
@@ -2566,6 +2592,7 @@
       "item.pashs_generic_tech_mod.heat_dissipating_element": "Heat Dissipating Element",
       "block.pashs_generic_tech_mod.tin_ore": "Tin Ore",
       "block.pashs_generic_tech_mod.orepurifier": "ingot grinder",
+      "item.pashs_generic_tech_mod.speed_boots_armor_helmet": "Speed_boots Helmet",
       "item.pashs_generic_tech_mod.ironplate": "Iron plate",
       "itemGroup.tabpashsgenerictechmod": "Pash\u0027s generic tech mod",
       "item.pashs_generic_tech_mod.crushedcopper": "purified copper",
@@ -2589,6 +2616,7 @@
       "item.pashs_generic_tech_mod.resetresearchtool": "research points reset tool",
       "block.pashs_generic_tech_mod.machine_casing": "Machine Casing",
       "block.pashs_generic_tech_mod.teleporteroutput": "teleporter",
+      "item.pashs_generic_tech_mod.speed_boots_armor_leggings": "Speed_boots Leggings",
       "item.pashs_generic_tech_mod.oily_armor_boots": "Oily Boots",
       "item.pashs_generic_tech_mod.generictechmodbook": "Generic tech mod guide book"
     }

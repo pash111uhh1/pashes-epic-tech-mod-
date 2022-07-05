@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "2": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "3": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    },
+    "4": {
+      "item": "pashs_generic_tech_mod:oily_armor_boots"
+    },
+    "5": {
+      "item": "pashs_generic_tech_mod:ironplate"
+    }
+  },
+  "result": {
+    "item": "pashs_generic_tech_mod:speed_boots_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "speed_boots_head",
+    "enableBody": false,
+    "textureBody": "speed_boots_body",
+    "enableLeggings": false,
+    "textureLeggings": "speed_boots_leggings",
+    "enableBoots": true,
+    "textureBoots": "speed_boots_boots",
+    "onBootsTick": {
+      "name": "OilyArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Pashsgenerictechmod"
+    },
+    "armorTextureFile": "speed_boots",
+    "helmetName": "Speed_boots Helmet",
+    "bodyName": "Speed_boots Chestplate",
+    "leggingsName": "Speed_boots Leggings",
+    "bootsName": "speed boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [
+      "travel faster"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 15,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Curcuit"
+      }
+    ]
+  }
+}
