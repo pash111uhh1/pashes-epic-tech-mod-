@@ -18,7 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.pashsgenerictechmod.procedures.OilyArmorBootsTickEventProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.TravelerbootsProcedure;
 import net.mcreator.pashsgenerictechmod.init.PashsGenericTechModModTabs;
 import net.mcreator.pashsgenerictechmod.init.PashsGenericTechModModItems;
 
@@ -87,7 +87,7 @@ public abstract class Speed_bootsArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			OilyArmorBootsTickEventProcedure.execute(world, entity);
+			TravelerbootsProcedure.execute(world, entity);
 		}
 	}
 }

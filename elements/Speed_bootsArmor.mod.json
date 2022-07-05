@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "speed_boots_boots",
     "onBootsTick": {
-      "name": "OilyArmorBootsTickEvent"
+      "name": "Travelerboots"
     },
     "creativeTab": {
       "value": "CUSTOM:Pashsgenerictechmod"

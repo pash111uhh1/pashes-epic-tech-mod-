@@ -2503,6 +2503,27 @@
       "locked_code": false,
       "registry_name": "speed_boots_armor_boots_recipe",
       "path": "~/speed boots"
+    },
+    {
+      "name": "Travelerboots",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelerboots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/speed boots"
     }
   ],
   "variable_elements": [
@@ -2547,8 +2568,8 @@
   "language_map": {
     "en_us": {
       "advancements.havingtrouble.descr": "make your first ingot crusher",
-      "advancements.moreoilandstuff.title": "you did not forgot about the oil, right?",
       "advancements.havingtroublemakeitdouble.descr": "crush your first ingots",
+      "advancements.moreoilandstuff.title": "you did not forgot about the oil, right?",
       "advancements.torefiningandbeyond.title": "very refined",
       "item.pashs_generic_tech_mod.tin_sword": "Tin Sword",
       "advancements.americandream.title": "American dream",
