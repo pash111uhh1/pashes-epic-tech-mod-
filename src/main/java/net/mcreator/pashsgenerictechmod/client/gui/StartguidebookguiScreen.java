@@ -158,6 +158,10 @@ public class StartguidebookguiScreen extends AbstractContainerScreen<Startguideb
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 114, this.topPos + 147, 103, 20, new TextComponent("heat dissapator"), e -> {
+			if (true) {
+				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new StartguidebookguiButtonMessage(12, x, y, z));
+				StartguidebookguiButtonMessage.handleButtonAction(entity, 12, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 189, this.topPos + 6, 35, 20, new TextComponent("->"), e -> {
 			if (true) {

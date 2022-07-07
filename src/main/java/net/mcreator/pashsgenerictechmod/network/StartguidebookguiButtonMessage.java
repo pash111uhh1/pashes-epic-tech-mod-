@@ -21,6 +21,7 @@ import net.mcreator.pashsgenerictechmod.procedures.Turnpage3Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage2Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage20Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage1Procedure;
+import net.mcreator.pashsgenerictechmod.procedures.Turnpage18Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage13Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Iregretmydicision1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.IregretmydicidiotProcedure;
@@ -121,6 +122,10 @@ public class StartguidebookguiButtonMessage {
 		if (buttonID == 11) {
 
 			Turnpage20Procedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 12) {
+
+			Turnpage18Procedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 13) {
 

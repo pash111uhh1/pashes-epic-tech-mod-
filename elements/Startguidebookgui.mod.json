@@ -205,6 +205,9 @@
         "type": "button",
         "data": {
           "text": "heat dissapator",
+          "onClick": {
+            "name": "Turnpage18"
+          },
           "width": 103,
           "height": 20,
           "name": "heat dissapator",
