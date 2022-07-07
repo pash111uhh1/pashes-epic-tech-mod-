@@ -12,12 +12,12 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.pashsgenerictechmod.world.inventory.Startguidebookgui1Menu;
-import net.mcreator.pashsgenerictechmod.procedures.MommecanidisplayplesProcedure;
-import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplayples2Procedure;
+import net.mcreator.pashsgenerictechmod.procedures.TextdisplayconditionProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.Textdisplaycondition1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplayples1Procedure;
-import net.mcreator.pashsgenerictechmod.procedures.MommecanidisplaymyfriendProcedure;
-import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplaymyfriend2Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommacanidisplaymyfriend1Procedure;
+import net.mcreator.pashsgenerictechmod.procedures.Buttondisplaycondition1Procedure;
+import net.mcreator.pashsgenerictechmod.procedures.ButtonDisplayConditionProcedure;
 import net.mcreator.pashsgenerictechmod.network.Startguidebookgui1ButtonMessage;
 import net.mcreator.pashsgenerictechmod.network.PashsGenericTechModModVariables;
 import net.mcreator.pashsgenerictechmod.PashsGenericTechModMod;
@@ -84,13 +84,13 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			this.font.draw(poseStack, "REQUIRES 10 RESEARCH POINTS", 9, 148, -16777216);
 		this.font.draw(poseStack, "research points - " + ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready) + "", 7, 169, -16777216);
-		if (MommecanidisplaymyfriendProcedure.execute(entity))
-			this.font.draw(poseStack, "REQUIRES 20 ", 160, 27, -16777216);
-		if (MommecanidisplaymyfriendProcedure.execute(entity))
+		if (TextdisplayconditionProcedure.execute(entity))
+			this.font.draw(poseStack, "REQUIRES 14", 160, 27, -16777216);
+		if (TextdisplayconditionProcedure.execute(entity))
 			this.font.draw(poseStack, "RESEARCH POINTS", 151, 37, -16777216);
-		if (Mommecanidisplayples2Procedure.execute(entity))
-			this.font.draw(poseStack, "REQUIRES 24", 100, 49, -16777216);
-		if (Mommecanidisplayples2Procedure.execute(entity))
+		if (Textdisplaycondition1Procedure.execute(entity))
+			this.font.draw(poseStack, "REQUIRES 20", 100, 49, -16777216);
+		if (Textdisplaycondition1Procedure.execute(entity))
 			this.font.draw(poseStack, "RESEARCH POINTS", 93, 63, -16777216);
 	}
 
@@ -153,26 +153,26 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 148, this.topPos + 27, 82, 20, new TextComponent("speed boots"), e -> {
-			if (MommecanidisplayplesProcedure.execute(entity)) {
+			if (ButtonDisplayConditionProcedure.execute(entity)) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(7, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}) {
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
-				if (MommecanidisplayplesProcedure.execute(entity))
+				if (ButtonDisplayConditionProcedure.execute(entity))
 					super.render(ms, gx, gy, ticks);
 			}
 		});
 		this.addRenderableWidget(new Button(this.leftPos + 102, this.topPos + 49, 51, 20, new TextComponent("crate"), e -> {
-			if (Mommecanidisplaymyfriend2Procedure.execute(entity)) {
+			if (Buttondisplaycondition1Procedure.execute(entity)) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(8, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 8, x, y, z);
 			}
 		}) {
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
-				if (Mommecanidisplaymyfriend2Procedure.execute(entity))
+				if (Buttondisplaycondition1Procedure.execute(entity))
 					super.render(ms, gx, gy, ticks);
 			}
 		});

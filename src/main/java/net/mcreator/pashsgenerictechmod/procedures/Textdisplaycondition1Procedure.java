@@ -4,7 +4,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.pashsgenerictechmod.network.PashsGenericTechModModVariables;
 
-public class MommecanidisplaymyfriendProcedure {
+public class Textdisplaycondition1Procedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;

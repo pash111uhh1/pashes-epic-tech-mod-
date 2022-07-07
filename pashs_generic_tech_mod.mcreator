@@ -2586,24 +2586,6 @@
       "path": "~/generictechmodguidencebook"
     },
     {
-      "name": "Mommecanidisplayples",
-      "type": "procedure",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mommecanidisplayples",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/generictechmodguidencebook/mommecanidisploy"
-    },
-    {
       "name": "Turnpagetospeedbootrecipe",
       "type": "procedure",
       "sortid": 180,
@@ -2635,24 +2617,6 @@
         ]
       },
       "path": "~/generictechmodguidencebook"
-    },
-    {
-      "name": "Mommecanidisplaymyfriend",
-      "type": "procedure",
-      "sortid": 181,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mommecanidisplaymyfriend",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/generictechmodguidencebook/mommecanidisploy"
     },
     {
       "name": "Iamspeed",
@@ -2733,12 +2697,12 @@
       "path": "~/generictechmodguidencebook"
     },
     {
-      "name": "Mommecanidisplaymyfriend2",
+      "name": "Textdisplaycondition",
       "type": "procedure",
       "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mommecanidisplaymyfriend_2",
+      "registry_name": "textdisplaycondition",
       "metadata": {
         "return_type": "logic",
         "dependencies": [
@@ -2748,15 +2712,15 @@
           }
         ]
       },
-      "path": "~/generictechmodguidencebook/mommecanidisploy"
+      "path": "~/generictechmodguidencebook"
     },
     {
-      "name": "Mommecanidisplayples2",
+      "name": "ButtonDisplayCondition",
       "type": "procedure",
       "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mommecanidisplayples_2",
+      "registry_name": "button_display_condition",
       "metadata": {
         "return_type": "logic",
         "dependencies": [
@@ -2766,7 +2730,43 @@
           }
         ]
       },
-      "path": "~/generictechmodguidencebook/mommecanidisploy"
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Textdisplaycondition1",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textdisplaycondition_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Buttondisplaycondition1",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttondisplaycondition_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
     }
   ],
   "variable_elements": [
@@ -2919,7 +2919,7 @@
         "name": "generictechmodguidencebook",
         "children": [
           {
-            "name": "mommecanidisploy",
+            "name": "gaming man",
             "children": []
           }
         ]

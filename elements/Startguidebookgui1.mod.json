@@ -171,7 +171,7 @@
             "name": "Turnpagetospeedbootrecipe"
           },
           "displayCondition": {
-            "name": "Mommecanidisplayples"
+            "name": "ButtonDisplayCondition"
           },
           "width": 82,
           "height": 20,
@@ -183,15 +183,15 @@
       {
         "type": "label",
         "data": {
-          "text": "REQUIRES 20 ",
+          "text": "REQUIRES 14",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "Mommecanidisplaymyfriend"
+            "name": "Textdisplaycondition"
           },
-          "name": "REQUIRES 20 ",
+          "name": "REQUIRES 14",
           "x": 255,
           "y": 54
         }
@@ -205,7 +205,7 @@
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "Mommecanidisplaymyfriend"
+            "name": "Textdisplaycondition"
           },
           "name": "RESEARCH POINTS",
           "x": 246,
@@ -215,15 +215,15 @@
       {
         "type": "label",
         "data": {
-          "text": "REQUIRES 24",
+          "text": "REQUIRES 20",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "Mommecanidisplayples2"
+            "name": "Textdisplaycondition1"
           },
-          "name": "REQUIRES 24",
+          "name": "REQUIRES 20",
           "x": 195,
           "y": 76
         }
@@ -236,7 +236,7 @@
             "name": "Turnpagetocrate"
           },
           "displayCondition": {
-            "name": "Mommecanidisplaymyfriend2"
+            "name": "Buttondisplaycondition1"
           },
           "width": 51,
           "height": 20,
@@ -254,7 +254,7 @@
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "Mommecanidisplayples2"
+            "name": "Textdisplaycondition1"
           },
           "name": "RESEARCH POINTS",
           "x": 188,

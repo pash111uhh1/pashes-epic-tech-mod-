@@ -4,14 +4,14 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.pashsgenerictechmod.network.PashsGenericTechModModVariables;
 
-public class MommecanidisplayplesProcedure {
+public class Buttondisplaycondition1Procedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
 		if ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready >= 20) {
-			return false;
+			return true;
 		}
-		return true;
+		return false;
 	}
 }
