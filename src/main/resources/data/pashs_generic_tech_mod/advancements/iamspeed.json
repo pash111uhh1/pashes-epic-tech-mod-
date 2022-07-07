@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pashs_generic_tech_mod:speed_boots_armor_boots"
+    },
+    "title": {
+      "translate": "advancements.iamspeed.title"
+    },
+    "description": {
+      "translate": "advancements.iamspeed.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iamspeed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pashs_generic_tech_mod:speed_boots_armor_boots"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pashs_generic_tech_mod:americanboot"
+}

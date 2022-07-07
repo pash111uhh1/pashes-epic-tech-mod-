@@ -2653,6 +2653,15 @@
         ]
       },
       "path": "~/generictechmodguidencebook/mommecanidisploy"
+    },
+    {
+      "name": "Iamspeed",
+      "type": "achievement",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iamspeed",
+      "path": "~/advancments"
     }
   ],
   "variable_elements": [
@@ -2731,14 +2740,16 @@
       "advancements.infiniteoil_yay.title": "Infinite oil",
       "item.pashs_generic_tech_mod.tindust": "Tin dust",
       "item.pashs_generic_tech_mod.curcuit": "Circuit",
-      "item.pashs_generic_tech_mod.refinedoil": "Refinedoil",
+      "item.pashs_generic_tech_mod.refinedoil": "Refined oil",
       "item.pashs_generic_tech_mod.crushediron": "purified iron",
       "item.pashs_generic_tech_mod.advancedcurcuit": "Advanced circuit",
+      "advancements.iamspeed.title": "i am speed",
       "item.pashs_generic_tech_mod.oily_armor_helmet": "Oily Helmet",
       "advancements.infiniteoil_yay.descr": "make an oil extractor",
       "advancements.pleasebringoil.descr": "make oily leggings",
       "item.pashs_generic_tech_mod.oilcanfull": "Oil",
       "advancements.ewitsoily.descr": "make an oily helmet",
+      "advancements.iamspeed.descr": "get the speed boots",
       "item.pashs_generic_tech_mod.heat_dissipating_element": "Heat Dissipating Element",
       "block.pashs_generic_tech_mod.tin_ore": "Tin Ore",
       "block.pashs_generic_tech_mod.orepurifier": "ingot grinder",
@@ -2833,6 +2844,10 @@
       },
       {
         "name": "speed boots",
+        "children": []
+      },
+      {
+        "name": "crate",
         "children": []
       }
     ]
