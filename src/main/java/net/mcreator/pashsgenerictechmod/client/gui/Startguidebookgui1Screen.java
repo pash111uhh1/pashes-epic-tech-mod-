@@ -88,9 +88,9 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			this.font.draw(poseStack, "REQUIRES 20 ", 160, 27, -16777216);
 		if (MommecanidisplaymyfriendProcedure.execute(entity))
 			this.font.draw(poseStack, "RESEARCH POINTS", 151, 37, -16777216);
-		if (Mommecanidisplaymyfriend2Procedure.execute(entity))
+		if (Mommecanidisplayples2Procedure.execute(entity))
 			this.font.draw(poseStack, "REQUIRES 24", 100, 49, -16777216);
-		if (Mommecanidisplaymyfriend2Procedure.execute(entity))
+		if (Mommecanidisplayples2Procedure.execute(entity))
 			this.font.draw(poseStack, "RESEARCH POINTS", 93, 63, -16777216);
 	}
 
@@ -165,14 +165,14 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			}
 		});
 		this.addRenderableWidget(new Button(this.leftPos + 102, this.topPos + 49, 51, 20, new TextComponent("crate"), e -> {
-			if (Mommecanidisplayples2Procedure.execute(entity)) {
+			if (Mommecanidisplaymyfriend2Procedure.execute(entity)) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(8, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 8, x, y, z);
 			}
 		}) {
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
-				if (Mommecanidisplayples2Procedure.execute(entity))
+				if (Mommecanidisplaymyfriend2Procedure.execute(entity))
 					super.render(ms, gx, gy, ticks);
 			}
 		});
