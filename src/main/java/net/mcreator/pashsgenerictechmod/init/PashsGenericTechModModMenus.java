@@ -15,6 +15,8 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.TeleportguiMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.StartguidebookguiMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.Startguidebookgui1Menu;
+import net.mcreator.pashsgenerictechmod.world.inventory.SpongecraftrecipeMenu;
+import net.mcreator.pashsgenerictechmod.world.inventory.SpeedbootsrecipeMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.ReaserchGUIMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.PlatingmachineGUIMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.OrepurifierguiMenu;
@@ -128,6 +130,10 @@ public class PashsGenericTechModModMenus {
 			(id, inv, extraData) -> new GuidebookteleportersMenu(id, inv, extraData));
 	public static final MenuType<GuidebookteleporterstuningMenu> GUIDEBOOKTELEPORTERSTUNING = register("guidebookteleporterstuning",
 			(id, inv, extraData) -> new GuidebookteleporterstuningMenu(id, inv, extraData));
+	public static final MenuType<SpongecraftrecipeMenu> SPONGECRAFTRECIPE = register("spongecraftrecipe",
+			(id, inv, extraData) -> new SpongecraftrecipeMenu(id, inv, extraData));
+	public static final MenuType<SpeedbootsrecipeMenu> SPEEDBOOTSRECIPE = register("speedbootsrecipe",
+			(id, inv, extraData) -> new SpeedbootsrecipeMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

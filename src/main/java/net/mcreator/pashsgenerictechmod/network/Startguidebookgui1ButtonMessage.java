@@ -14,6 +14,8 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.pashsgenerictechmod.world.inventory.Startguidebookgui1Menu;
 import net.mcreator.pashsgenerictechmod.procedures.WeGoBackNowBishProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.TurnpagetoteleportProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.TurnpagetospongecraftProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.TurnpagetospeedbootrecipeProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.TurnpagetoresearchProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage22Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage19Procedure;
@@ -90,6 +92,14 @@ public class Startguidebookgui1ButtonMessage {
 		if (buttonID == 5) {
 
 			TurnpagetoteleportProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			TurnpagetospongecraftProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			TurnpagetospeedbootrecipeProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -11,7 +11,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.pashsgenerictechmod.world.inventory.Guidebookpart14Menu;
+import net.mcreator.pashsgenerictechmod.world.inventory.SpeedbootsrecipeMenu;
 import net.mcreator.pashsgenerictechmod.procedures.WeGoBackNowBishProcedure;
 import net.mcreator.pashsgenerictechmod.PashsGenericTechModMod;
 
@@ -19,31 +19,31 @@ import java.util.function.Supplier;
 import java.util.HashMap;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class Guidebookpart14ButtonMessage {
+public class SpeedbootsrecipeButtonMessage {
 	private final int buttonID, x, y, z;
 
-	public Guidebookpart14ButtonMessage(FriendlyByteBuf buffer) {
+	public SpeedbootsrecipeButtonMessage(FriendlyByteBuf buffer) {
 		this.buttonID = buffer.readInt();
 		this.x = buffer.readInt();
 		this.y = buffer.readInt();
 		this.z = buffer.readInt();
 	}
 
-	public Guidebookpart14ButtonMessage(int buttonID, int x, int y, int z) {
+	public SpeedbootsrecipeButtonMessage(int buttonID, int x, int y, int z) {
 		this.buttonID = buttonID;
 		this.x = x;
 		this.y = y;
 		this.z = z;
 	}
 
-	public static void buffer(Guidebookpart14ButtonMessage message, FriendlyByteBuf buffer) {
+	public static void buffer(SpeedbootsrecipeButtonMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
 		buffer.writeInt(message.y);
 		buffer.writeInt(message.z);
 	}
 
-	public static void handler(Guidebookpart14ButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+	public static void handler(SpeedbootsrecipeButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
 			Player entity = context.getSender();
@@ -58,7 +58,7 @@ public class Guidebookpart14ButtonMessage {
 
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level;
-		HashMap guistate = Guidebookpart14Menu.guistate;
+		HashMap guistate = SpeedbootsrecipeMenu.guistate;
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
@@ -70,7 +70,7 @@ public class Guidebookpart14ButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		PashsGenericTechModMod.addNetworkMessage(Guidebookpart14ButtonMessage.class, Guidebookpart14ButtonMessage::buffer,
-				Guidebookpart14ButtonMessage::new, Guidebookpart14ButtonMessage::handler);
+		PashsGenericTechModMod.addNetworkMessage(SpeedbootsrecipeButtonMessage.class, SpeedbootsrecipeButtonMessage::buffer,
+				SpeedbootsrecipeButtonMessage::new, SpeedbootsrecipeButtonMessage::handler);
 	}
 }

@@ -16,33 +16,33 @@
           "image": "bookgui.png",
           "use1Xscale": false,
           "name": "bookgui.png",
-          "x": 95,
-          "y": 25
+          "x": 94,
+          "y": 26
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "oily boots",
+          "text": "sponge crafting recipe",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "oily boots",
-          "x": 165,
-          "y": 33
+          "name": "sponge crafting recipe",
+          "x": 180,
+          "y": 34
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "!REQUIRES REFINED OIL!",
+          "text": "not exactly like normal sponge, but does",
           "color": {
-            "value": -65434,
+            "value": -12829636,
             "falpha": 0.0
           },
-          "name": "!REQUIRES REFINED OIL!",
-          "x": 100,
+          "name": "not exactly like normal sponge, but does",
+          "x": 109,
           "y": 53
         }
       },
@@ -55,8 +55,21 @@
             "falpha": 0.0
           },
           "name": "requires:",
-          "x": 100,
-          "y": 77
+          "x": 105,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "any coal x1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "any coal x1",
+          "x": 104,
+          "y": 110
         }
       },
       {
@@ -74,39 +87,39 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "text": "oil canister",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "oil canister",
-          "x": 101,
-          "y": 94
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "golden plate x4",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "golden plate x4",
-          "x": 101,
-          "y": 106
-        }
-      },
-      {
         "type": "image",
         "data": {
-          "image": "oilybootsplus4ironplate.png",
+          "image": "scout_gaming.png",
           "use1Xscale": true,
-          "name": "oilybootsplus4ironplate.png",
-          "x": 203,
-          "y": 87
+          "name": "scout_gaming.png",
+          "x": 206,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "paper x2",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "paper x2",
+          "x": 103,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "its work pretty well",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "its work pretty well",
+          "x": 108,
+          "y": 65
         }
       }
     ],

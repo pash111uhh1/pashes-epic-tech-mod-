@@ -12,7 +12,9 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.pashsgenerictechmod.world.inventory.Startguidebookgui1Menu;
+import net.mcreator.pashsgenerictechmod.procedures.MommecanidisplayplesProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplayples1Procedure;
+import net.mcreator.pashsgenerictechmod.procedures.MommecanidisplaymyfriendProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommacanidisplaymyfriend1Procedure;
 import net.mcreator.pashsgenerictechmod.network.Startguidebookgui1ButtonMessage;
 import net.mcreator.pashsgenerictechmod.network.PashsGenericTechModModVariables;
@@ -77,9 +79,13 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "table of contents", 73, 6, -12829636);
 		if (Mommacanidisplaymyfriend1Procedure.execute(entity))
-			this.font.draw(poseStack, "REQUIRES 10 RESEARCH POINTS", 9, 130, -16777216);
+			this.font.draw(poseStack, "REQUIRES 10 RESEARCH POINTS", 9, 148, -16777216);
 		this.font.draw(poseStack, "research points - " + ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready) + "", 7, 169, -16777216);
+		if (MommecanidisplaymyfriendProcedure.execute(entity))
+			this.font.draw(poseStack, "REQUIRES 20 ", 160, 27, -16777216);
+		if (MommecanidisplaymyfriendProcedure.execute(entity))
+			this.font.draw(poseStack, "RESEARCH POINTS", 151, 37, -16777216);
 	}
 
 	@Override
@@ -98,31 +104,31 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 31, 87, 20, new TextComponent("extractor"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 47, 87, 20, new TextComponent("extractor"), e -> {
 			if (true) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(1, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 55, 77, 20, new TextComponent("foodstuffs"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 70, 77, 20, new TextComponent("foodstuffs"), e -> {
 			if (true) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(2, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 79, 108, 20, new TextComponent("advanced circuit"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 95, 108, 20, new TextComponent("advanced circuit"), e -> {
 			if (true) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(3, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 102, 108, 20, new TextComponent("research station"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 118, 108, 20, new TextComponent("research station"), e -> {
 			if (true) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(4, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 124, 56, 20, new TextComponent("teleporter"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 143, 56, 20, new TextComponent("teleporter"), e -> {
 			if (Mommecanidisplayples1Procedure.execute(entity)) {
 				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(5, x, y, z));
 				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 5, x, y, z);
@@ -131,6 +137,24 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
 				if (Mommecanidisplayples1Procedure.execute(entity))
+					super.render(ms, gx, gy, ticks);
+			}
+		});
+		this.addRenderableWidget(new Button(this.leftPos + 5, this.topPos + 27, 140, 20, new TextComponent("sponge crafting recipe"), e -> {
+			if (true) {
+				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(6, x, y, z));
+				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 148, this.topPos + 27, 82, 20, new TextComponent("speed boots"), e -> {
+			if (MommecanidisplayplesProcedure.execute(entity)) {
+				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(7, x, y, z));
+				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}) {
+			@Override
+			public void render(PoseStack ms, int gx, int gy, float ticks) {
+				if (MommecanidisplayplesProcedure.execute(entity))
 					super.render(ms, gx, gy, ticks);
 			}
 		});

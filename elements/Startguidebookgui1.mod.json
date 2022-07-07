@@ -58,7 +58,7 @@
           "height": 20,
           "name": "extractor",
           "x": 102,
-          "y": 58
+          "y": 74
         }
       },
       {
@@ -72,7 +72,7 @@
           "height": 20,
           "name": "foodstuffs",
           "x": 103,
-          "y": 82
+          "y": 97
         }
       },
       {
@@ -86,7 +86,7 @@
           "height": 20,
           "name": "advanced circuit",
           "x": 103,
-          "y": 106
+          "y": 122
         }
       },
       {
@@ -102,7 +102,7 @@
           },
           "name": "REQUIRES 10 RESEARCH POINTS",
           "x": 104,
-          "y": 157
+          "y": 175
         }
       },
       {
@@ -116,7 +116,7 @@
           "height": 20,
           "name": "research station",
           "x": 102,
-          "y": 129
+          "y": 145
         }
       },
       {
@@ -145,8 +145,71 @@
           "width": 56,
           "height": 20,
           "name": "teleporter",
-          "x": 102,
-          "y": 151
+          "x": 103,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "sponge crafting recipe",
+          "onClick": {
+            "name": "Turnpagetospongecraft"
+          },
+          "width": 140,
+          "height": 20,
+          "name": "sponge crafting recipe",
+          "x": 100,
+          "y": 54
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "speed boots",
+          "onClick": {
+            "name": "Turnpagetospeedbootrecipe"
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplayples"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "speed boots",
+          "x": 243,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "REQUIRES 20 ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplaymyfriend"
+          },
+          "name": "REQUIRES 20 ",
+          "x": 255,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RESEARCH POINTS",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplaymyfriend"
+          },
+          "name": "RESEARCH POINTS",
+          "x": 246,
+          "y": 64
         }
       }
     ],

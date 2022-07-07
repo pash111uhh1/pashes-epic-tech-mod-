@@ -16,33 +16,33 @@
           "image": "bookgui.png",
           "use1Xscale": false,
           "name": "bookgui.png",
-          "x": 95,
-          "y": 25
+          "x": 94,
+          "y": 26
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "oily boots",
+          "text": "speed boots",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "oily boots",
-          "x": 165,
-          "y": 33
+          "name": "speed boots",
+          "x": 180,
+          "y": 34
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "!REQUIRES REFINED OIL!",
+          "text": "consumes oil at the same rate as oily boots",
           "color": {
-            "value": -65434,
+            "value": -12829636,
             "falpha": 0.0
           },
-          "name": "!REQUIRES REFINED OIL!",
-          "x": 100,
+          "name": "consumes oil at the same rate as oily boots",
+          "x": 101,
           "y": 53
         }
       },
@@ -55,8 +55,21 @@
             "falpha": 0.0
           },
           "name": "requires:",
-          "x": 100,
-          "y": 77
+          "x": 105,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "any coal x4",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "any coal x4",
+          "x": 104,
+          "y": 110
         }
       },
       {
@@ -74,39 +87,52 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "text": "oil canister",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "oil canister",
-          "x": 101,
-          "y": 94
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "golden plate x4",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "golden plate x4",
-          "x": 101,
-          "y": 106
-        }
-      },
-      {
         "type": "image",
         "data": {
           "image": "oilybootsplus4ironplate.png",
           "use1Xscale": true,
           "name": "oilybootsplus4ironplate.png",
-          "x": 203,
-          "y": 87
+          "x": 206,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "oily boots x1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "oily boots x1",
+          "x": 103,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "!REQUIRES REFINED OIL!",
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "name": "!REQUIRES REFINED OIL!",
+          "x": 99,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "provides speed boost if fueled ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "provides speed boost if fueled ",
+          "x": 100,
+          "y": 64
         }
       }
     ],

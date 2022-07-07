@@ -2524,6 +2524,135 @@
         ]
       },
       "path": "~/speed boots"
+    },
+    {
+      "name": "Spongecraft",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spongecraft",
+      "path": "~/oilrefinerystuff"
+    },
+    {
+      "name": "Spongecraftrecipe",
+      "type": "gui",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spongecraftrecipe",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpagetospongecraft",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpagetospongecraft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Speedbootsrecipe",
+      "type": "gui",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedbootsrecipe",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Mommecanidisplayples",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mommecanidisplayples",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook/mommecanidisploy"
+    },
+    {
+      "name": "Turnpagetospeedbootrecipe",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpagetospeedbootrecipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Mommecanidisplaymyfriend",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mommecanidisplaymyfriend",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook/mommecanidisploy"
     }
   ],
   "variable_elements": [
@@ -2671,7 +2800,12 @@
       },
       {
         "name": "generictechmodguidencebook",
-        "children": []
+        "children": [
+          {
+            "name": "mommecanidisploy",
+            "children": []
+          }
+        ]
       },
       {
         "name": "oilextractor",

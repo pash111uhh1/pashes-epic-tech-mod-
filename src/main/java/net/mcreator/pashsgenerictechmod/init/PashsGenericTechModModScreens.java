@@ -14,6 +14,8 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.pashsgenerictechmod.client.gui.TeleportguiScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.StartguidebookguiScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.Startguidebookgui1Screen;
+import net.mcreator.pashsgenerictechmod.client.gui.SpongecraftrecipeScreen;
+import net.mcreator.pashsgenerictechmod.client.gui.SpeedbootsrecipeScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.ReaserchGUIScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.PlatingmachineGUIScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.OrepurifierguiScreen;
@@ -91,6 +93,8 @@ public class PashsGenericTechModModScreens {
 			MenuScreens.register(PashsGenericTechModModMenus.TELEPORTGUI, TeleportguiScreen::new);
 			MenuScreens.register(PashsGenericTechModModMenus.GUIDEBOOKTELEPORTERS, GuidebookteleportersScreen::new);
 			MenuScreens.register(PashsGenericTechModModMenus.GUIDEBOOKTELEPORTERSTUNING, GuidebookteleporterstuningScreen::new);
+			MenuScreens.register(PashsGenericTechModModMenus.SPONGECRAFTRECIPE, SpongecraftrecipeScreen::new);
+			MenuScreens.register(PashsGenericTechModModMenus.SPEEDBOOTSRECIPE, SpeedbootsrecipeScreen::new);
 		});
 	}
 }

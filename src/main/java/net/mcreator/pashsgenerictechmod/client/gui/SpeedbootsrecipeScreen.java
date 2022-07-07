@@ -11,8 +11,8 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.pashsgenerictechmod.world.inventory.Guidebookpart14Menu;
-import net.mcreator.pashsgenerictechmod.network.Guidebookpart14ButtonMessage;
+import net.mcreator.pashsgenerictechmod.world.inventory.SpeedbootsrecipeMenu;
+import net.mcreator.pashsgenerictechmod.network.SpeedbootsrecipeButtonMessage;
 import net.mcreator.pashsgenerictechmod.PashsGenericTechModMod;
 
 import java.util.HashMap;
@@ -20,13 +20,13 @@ import java.util.HashMap;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class Guidebookpart14Screen extends AbstractContainerScreen<Guidebookpart14Menu> {
-	private final static HashMap<String, Object> guistate = Guidebookpart14Menu.guistate;
+public class SpeedbootsrecipeScreen extends AbstractContainerScreen<SpeedbootsrecipeMenu> {
+	private final static HashMap<String, Object> guistate = SpeedbootsrecipeMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public Guidebookpart14Screen(Guidebookpart14Menu container, Inventory inventory, Component text) {
+	public SpeedbootsrecipeScreen(SpeedbootsrecipeMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -37,7 +37,7 @@ public class Guidebookpart14Screen extends AbstractContainerScreen<Guidebookpart
 		this.imageHeight = 186;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("pashs_generic_tech_mod:textures/guidebookpart_14.png");
+	private static final ResourceLocation texture = new ResourceLocation("pashs_generic_tech_mod:textures/speedbootsrecipe.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -55,10 +55,10 @@ public class Guidebookpart14Screen extends AbstractContainerScreen<Guidebookpart
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("pashs_generic_tech_mod:textures/bookgui.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + -2, 0, 0, 237, 186, 237, 186);
+		this.blit(ms, this.leftPos + -1, this.topPos + -1, 0, 0, 237, 186, 237, 186);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("pashs_generic_tech_mod:textures/oilybootsplus4ironplate.png"));
-		this.blit(ms, this.leftPos + 108, this.topPos + 60, 0, 0, 114, 116, 114, 116);
+		this.blit(ms, this.leftPos + 111, this.topPos + 58, 0, 0, 114, 116, 114, 116);
 
 		RenderSystem.disableBlend();
 	}
@@ -79,11 +79,13 @@ public class Guidebookpart14Screen extends AbstractContainerScreen<Guidebookpart
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "oily boots", 70, 6, -12829636);
-		this.font.draw(poseStack, "!REQUIRES REFINED OIL!", 5, 26, -65434);
-		this.font.draw(poseStack, "requires:", 5, 50, -12829636);
-		this.font.draw(poseStack, "oil canister", 6, 67, -12829636);
-		this.font.draw(poseStack, "golden plate x4", 6, 79, -12829636);
+		this.font.draw(poseStack, "speed boots", 85, 7, -12829636);
+		this.font.draw(poseStack, "consumes oil at the same rate as oily boots", 6, 26, -12829636);
+		this.font.draw(poseStack, "requires:", 10, 67, -12829636);
+		this.font.draw(poseStack, "any coal x4", 9, 83, -12829636);
+		this.font.draw(poseStack, "oily boots x1", 8, 96, -12829636);
+		this.font.draw(poseStack, "!REQUIRES REFINED OIL!", 4, 50, -3407821);
+		this.font.draw(poseStack, "provides speed boost if fueled ", 5, 37, -12829636);
 	}
 
 	@Override
@@ -98,8 +100,8 @@ public class Guidebookpart14Screen extends AbstractContainerScreen<Guidebookpart
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 10, this.topPos + 4, 35, 20, new TextComponent("<-"), e -> {
 			if (true) {
-				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Guidebookpart14ButtonMessage(0, x, y, z));
-				Guidebookpart14ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new SpeedbootsrecipeButtonMessage(0, x, y, z));
+				SpeedbootsrecipeButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
 	}
