@@ -17,6 +17,7 @@ import net.mcreator.pashsgenerictechmod.block.entity.PlatingmachineBlockEntity;
 import net.mcreator.pashsgenerictechmod.block.entity.OrepurifierBlockEntity;
 import net.mcreator.pashsgenerictechmod.block.entity.OilrefineryBlockEntity;
 import net.mcreator.pashsgenerictechmod.block.entity.OilextractorBlockEntity;
+import net.mcreator.pashsgenerictechmod.block.entity.CrateBlockEntity;
 import net.mcreator.pashsgenerictechmod.PashsGenericTechModMod;
 
 public class PashsGenericTechModModBlockEntities {
@@ -34,6 +35,7 @@ public class PashsGenericTechModModBlockEntities {
 			PashsGenericTechModModBlocks.REASERCHINGTHINGY_6000, Reaserchingthingy6000BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TELEPORTEROUTPUT = register("teleporteroutput",
 			PashsGenericTechModModBlocks.TELEPORTEROUTPUT, TELEPORTEROUTPUTBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CRATE = register("crate", PashsGenericTechModModBlocks.CRATE, CrateBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

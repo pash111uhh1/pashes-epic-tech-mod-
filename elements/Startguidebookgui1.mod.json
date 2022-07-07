@@ -211,6 +211,55 @@
           "x": 246,
           "y": 64
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "REQUIRES 24",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplaymyfriend2"
+          },
+          "name": "REQUIRES 24",
+          "x": 195,
+          "y": 76
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "crate",
+          "onClick": {
+            "name": "Turnpagetocrate"
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplayples2"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "crate",
+          "x": 197,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RESEARCH POINTS",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Mommecanidisplaymyfriend2"
+          },
+          "name": "RESEARCH POINTS",
+          "x": 188,
+          "y": 90
+        }
       }
     ],
     "gridSettings": {

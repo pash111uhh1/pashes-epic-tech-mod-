@@ -13,8 +13,10 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.pashsgenerictechmod.world.inventory.Startguidebookgui1Menu;
 import net.mcreator.pashsgenerictechmod.procedures.MommecanidisplayplesProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplayples2Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplayples1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.MommecanidisplaymyfriendProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplaymyfriend2Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommacanidisplaymyfriend1Procedure;
 import net.mcreator.pashsgenerictechmod.network.Startguidebookgui1ButtonMessage;
 import net.mcreator.pashsgenerictechmod.network.PashsGenericTechModModVariables;
@@ -86,6 +88,10 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			this.font.draw(poseStack, "REQUIRES 20 ", 160, 27, -16777216);
 		if (MommecanidisplaymyfriendProcedure.execute(entity))
 			this.font.draw(poseStack, "RESEARCH POINTS", 151, 37, -16777216);
+		if (Mommecanidisplaymyfriend2Procedure.execute(entity))
+			this.font.draw(poseStack, "REQUIRES 24", 100, 49, -16777216);
+		if (Mommecanidisplaymyfriend2Procedure.execute(entity))
+			this.font.draw(poseStack, "RESEARCH POINTS", 93, 63, -16777216);
 	}
 
 	@Override
@@ -155,6 +161,18 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
 				if (MommecanidisplayplesProcedure.execute(entity))
+					super.render(ms, gx, gy, ticks);
+			}
+		});
+		this.addRenderableWidget(new Button(this.leftPos + 102, this.topPos + 49, 51, 20, new TextComponent("crate"), e -> {
+			if (Mommecanidisplayples2Procedure.execute(entity)) {
+				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(8, x, y, z));
+				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}) {
+			@Override
+			public void render(PoseStack ms, int gx, int gy, float ticks) {
+				if (Mommecanidisplayples2Procedure.execute(entity))
 					super.render(ms, gx, gy, ticks);
 			}
 		});

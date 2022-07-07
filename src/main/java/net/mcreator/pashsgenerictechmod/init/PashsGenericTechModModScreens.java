@@ -48,6 +48,7 @@ import net.mcreator.pashsgenerictechmod.client.gui.Guidebookguipart2Screen;
 import net.mcreator.pashsgenerictechmod.client.gui.Guidebookguipart1Screen;
 import net.mcreator.pashsgenerictechmod.client.gui.Guidebook23Screen;
 import net.mcreator.pashsgenerictechmod.client.gui.Guidebnookpart7Screen;
+import net.mcreator.pashsgenerictechmod.client.gui.CraterecipebookScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.CrateGUIScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.BlooodespyScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.BloodyhellScreen;
@@ -97,6 +98,7 @@ public class PashsGenericTechModModScreens {
 			MenuScreens.register(PashsGenericTechModModMenus.SPONGECRAFTRECIPE, SpongecraftrecipeScreen::new);
 			MenuScreens.register(PashsGenericTechModModMenus.SPEEDBOOTSRECIPE, SpeedbootsrecipeScreen::new);
 			MenuScreens.register(PashsGenericTechModModMenus.CRATE_GUI, CrateGUIScreen::new);
+			MenuScreens.register(PashsGenericTechModModMenus.CRATERECIPEBOOK, CraterecipebookScreen::new);
 		});
 	}
 }
