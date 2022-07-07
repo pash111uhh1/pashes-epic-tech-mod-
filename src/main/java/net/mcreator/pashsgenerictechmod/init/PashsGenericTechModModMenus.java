@@ -49,6 +49,7 @@ import net.mcreator.pashsgenerictechmod.world.inventory.Guidebookguipart2Menu;
 import net.mcreator.pashsgenerictechmod.world.inventory.Guidebookguipart1Menu;
 import net.mcreator.pashsgenerictechmod.world.inventory.Guidebook23Menu;
 import net.mcreator.pashsgenerictechmod.world.inventory.Guidebnookpart7Menu;
+import net.mcreator.pashsgenerictechmod.world.inventory.CrateGUIMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.BlooodespyMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.BloodyhellMenu;
 
@@ -134,6 +135,7 @@ public class PashsGenericTechModModMenus {
 			(id, inv, extraData) -> new SpongecraftrecipeMenu(id, inv, extraData));
 	public static final MenuType<SpeedbootsrecipeMenu> SPEEDBOOTSRECIPE = register("speedbootsrecipe",
 			(id, inv, extraData) -> new SpeedbootsrecipeMenu(id, inv, extraData));
+	public static final MenuType<CrateGUIMenu> CRATE_GUI = register("crate_gui", (id, inv, extraData) -> new CrateGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

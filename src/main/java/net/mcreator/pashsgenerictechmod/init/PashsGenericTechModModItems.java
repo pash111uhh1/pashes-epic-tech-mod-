@@ -100,6 +100,7 @@ public class PashsGenericTechModModItems {
 	public static final RegistryObject<Item> RESETRESEARCHTOOL = REGISTRY.register("resetresearchtool", () -> new ResetresearchtoolItem());
 	public static final RegistryObject<Item> SPEED_BOOTS_ARMOR_BOOTS = REGISTRY.register("speed_boots_armor_boots",
 			() -> new Speed_bootsArmorItem.Boots());
+	public static final RegistryObject<Item> CRATE = block(PashsGenericTechModModBlocks.CRATE, PashsGenericTechModModTabs.TAB_PASHSGENERICTECHMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

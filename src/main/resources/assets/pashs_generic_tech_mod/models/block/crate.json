@@ -1,0 +1,10 @@
+{
+  "parent": "pashs_generic_tech_mod:custom/crate",
+  "textures": {
+    "all": "pashs_generic_tech_mod:blocks/new_texture_of_oak_planks",
+    "particle": "pashs_generic_tech_mod:blocks/new_texture_of_oak_planks",
+    "0": "pashs_generic_tech_mod:blocks/new_texture_of_oak_planks",
+    "1": "pashs_generic_tech_mod:blocks/doktorsex",
+    "missing": "pashs_generic_tech_mod:blocks/"
+  }
+}

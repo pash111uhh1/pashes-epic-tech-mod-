@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "new_texture_of_oak_planks",
+        "1": "doktorsex",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

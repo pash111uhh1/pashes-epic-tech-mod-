@@ -25,6 +25,7 @@ import net.mcreator.pashsgenerictechmod.block.OilrefineryBlock;
 import net.mcreator.pashsgenerictechmod.block.OilextractorBlock;
 import net.mcreator.pashsgenerictechmod.block.OilBlock;
 import net.mcreator.pashsgenerictechmod.block.MachineCasingBlock;
+import net.mcreator.pashsgenerictechmod.block.CrateBlock;
 import net.mcreator.pashsgenerictechmod.PashsGenericTechModMod;
 
 public class PashsGenericTechModModBlocks {
@@ -41,12 +42,14 @@ public class PashsGenericTechModModBlocks {
 	public static final RegistryObject<Block> REASERCHINGTHINGY_6000 = REGISTRY.register("reaserchingthingy_6000",
 			() -> new Reaserchingthingy6000Block());
 	public static final RegistryObject<Block> TELEPORTEROUTPUT = REGISTRY.register("teleporteroutput", () -> new TELEPORTEROUTPUTBlock());
+	public static final RegistryObject<Block> CRATE = REGISTRY.register("crate", () -> new CrateBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			Reaserchingthingy6000Block.registerRenderLayer();
+			CrateBlock.registerRenderLayer();
 		}
 	}
 }
