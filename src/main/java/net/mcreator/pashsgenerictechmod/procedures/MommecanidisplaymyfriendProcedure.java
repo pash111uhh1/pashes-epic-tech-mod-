@@ -10,8 +10,8 @@ public class MommecanidisplaymyfriendProcedure {
 			return false;
 		if ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready < 20) {
-			return false;
+			return true;
 		}
-		return true;
+		return false;
 	}
 }
