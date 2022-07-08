@@ -14,10 +14,12 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.pashsgenerictechmod.world.inventory.Startguidebookgui1Menu;
 import net.mcreator.pashsgenerictechmod.procedures.TextdisplayconditionProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.Textdisplaycondition1Procedure;
+import net.mcreator.pashsgenerictechmod.procedures.Textdisplaycond1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommecanidisplayples1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Mommacanidisplaymyfriend1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Buttondisplaycondition1Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.ButtonDisplayConditionProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.Btndisplcond1Procedure;
 import net.mcreator.pashsgenerictechmod.network.Startguidebookgui1ButtonMessage;
 import net.mcreator.pashsgenerictechmod.network.PashsGenericTechModModVariables;
 import net.mcreator.pashsgenerictechmod.PashsGenericTechModMod;
@@ -92,6 +94,10 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			this.font.draw(poseStack, "REQUIRES 20", 100, 49, -16777216);
 		if (Textdisplaycondition1Procedure.execute(entity))
 			this.font.draw(poseStack, "RESEARCH POINTS", 93, 63, -16777216);
+		if (Textdisplaycond1Procedure.execute(entity))
+			this.font.draw(poseStack, "REQUIRES 30 ", 100, 73, -16777216);
+		if (Textdisplaycond1Procedure.execute(entity))
+			this.font.draw(poseStack, "RESEARCH POINTS", 91, 85, -16777216);
 	}
 
 	@Override
@@ -173,6 +179,18 @@ public class Startguidebookgui1Screen extends AbstractContainerScreen<Startguide
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
 				if (Buttondisplaycondition1Procedure.execute(entity))
+					super.render(ms, gx, gy, ticks);
+			}
+		});
+		this.addRenderableWidget(new Button(this.leftPos + 99, this.topPos + 74, 56, 20, new TextComponent("medkit"), e -> {
+			if (Btndisplcond1Procedure.execute(entity)) {
+				PashsGenericTechModMod.PACKET_HANDLER.sendToServer(new Startguidebookgui1ButtonMessage(9, x, y, z));
+				Startguidebookgui1ButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		}) {
+			@Override
+			public void render(PoseStack ms, int gx, int gy, float ticks) {
+				if (Btndisplcond1Procedure.execute(entity))
 					super.render(ms, gx, gy, ticks);
 			}
 		});

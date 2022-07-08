@@ -22,6 +22,7 @@ import net.mcreator.pashsgenerictechmod.world.inventory.PlatingmachineGUIMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.OrepurifierguiMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.OilrefineryGUIMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.OilextractorguiMenu;
+import net.mcreator.pashsgenerictechmod.world.inventory.MedkitrecipeguidebookMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.GuidebookteleporterstuningMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.GuidebookteleportersMenu;
 import net.mcreator.pashsgenerictechmod.world.inventory.Guidebookpart9Menu;
@@ -139,6 +140,8 @@ public class PashsGenericTechModModMenus {
 	public static final MenuType<CrateGUIMenu> CRATE_GUI = register("crate_gui", (id, inv, extraData) -> new CrateGUIMenu(id, inv, extraData));
 	public static final MenuType<CraterecipebookMenu> CRATERECIPEBOOK = register("craterecipebook",
 			(id, inv, extraData) -> new CraterecipebookMenu(id, inv, extraData));
+	public static final MenuType<MedkitrecipeguidebookMenu> MEDKITRECIPEGUIDEBOOK = register("medkitrecipeguidebook",
+			(id, inv, extraData) -> new MedkitrecipeguidebookMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

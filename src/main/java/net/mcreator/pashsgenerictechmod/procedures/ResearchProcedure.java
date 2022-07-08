@@ -486,6 +486,148 @@ public class ResearchProcedure {
 											}
 										}.start(world, 200);
 									}
+								} else {
+									if ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+											.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready == 20) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+												&& _current.get() instanceof Map _slots) {
+											ItemStack _setstack = new ItemStack(PashsGenericTechModModItems.SPEED_BOOTS_ARMOR_BOOTS.get());
+											_setstack.setCount(1);
+											((Slot) _slots.get(1)).set(_setstack);
+											_player.containerMenu.broadcastChanges();
+										}
+										if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+												&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
+												.getItem() == PashsGenericTechModModItems.SPEED_BOOTS_ARMOR_BOOTS.get()) {
+											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+													&& _current.get() instanceof Map _slots) {
+												((Slot) _slots.get(2)).remove(1);
+												_player.containerMenu.broadcastChanges();
+											}
+											{
+												String _setval = "research in progress";
+												entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+														.ifPresent(capability -> {
+															capability.researchstationtext = _setval;
+															capability.syncPlayerVariables(entity);
+														});
+											}
+											new Object() {
+												private int ticks = 0;
+												private float waitTicks;
+												private LevelAccessor world;
+
+												public void start(LevelAccessor world, int waitTicks) {
+													this.waitTicks = waitTicks;
+													MinecraftForge.EVENT_BUS.register(this);
+													this.world = world;
+												}
+
+												@SubscribeEvent
+												public void tick(TickEvent.ServerTickEvent event) {
+													if (event.phase == TickEvent.Phase.END) {
+														this.ticks += 1;
+														if (this.ticks >= this.waitTicks)
+															run();
+													}
+												}
+
+												private void run() {
+													{
+														double _setval = (entity
+																.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready
+																+ 6;
+														entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																.ifPresent(capability -> {
+																	capability.reaserchdonealready = _setval;
+																	capability.syncPlayerVariables(entity);
+																});
+													}
+													{
+														String _setval = "research complete";
+														entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																.ifPresent(capability -> {
+																	capability.researchstationtext = _setval;
+																	capability.syncPlayerVariables(entity);
+																});
+													}
+													MinecraftForge.EVENT_BUS.unregister(this);
+												}
+											}.start(world, 200);
+										}
+									} else {
+										if ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+												.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready == 30) {
+											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+													&& _current.get() instanceof Map _slots) {
+												ItemStack _setstack = new ItemStack(PashsGenericTechModModItems.TIN_INGOT.get());
+												_setstack.setCount(1);
+												((Slot) _slots.get(1)).set(_setstack);
+												_player.containerMenu.broadcastChanges();
+											}
+											if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+													&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
+													.getItem() == PashsGenericTechModModItems.TIN_INGOT.get()) {
+												if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+														&& _current.get() instanceof Map _slots) {
+													((Slot) _slots.get(2)).remove(1);
+													_player.containerMenu.broadcastChanges();
+												}
+												{
+													String _setval = "research in progress";
+													entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+															.ifPresent(capability -> {
+																capability.researchstationtext = _setval;
+																capability.syncPlayerVariables(entity);
+															});
+												}
+												new Object() {
+													private int ticks = 0;
+													private float waitTicks;
+													private LevelAccessor world;
+
+													public void start(LevelAccessor world, int waitTicks) {
+														this.waitTicks = waitTicks;
+														MinecraftForge.EVENT_BUS.register(this);
+														this.world = world;
+													}
+
+													@SubscribeEvent
+													public void tick(TickEvent.ServerTickEvent event) {
+														if (event.phase == TickEvent.Phase.END) {
+															this.ticks += 1;
+															if (this.ticks >= this.waitTicks)
+																run();
+														}
+													}
+
+													private void run() {
+														{
+															double _setval = (entity
+																	.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																	.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready
+																	+ 1;
+															entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																	.ifPresent(capability -> {
+																		capability.reaserchdonealready = _setval;
+																		capability.syncPlayerVariables(entity);
+																	});
+														}
+														{
+															String _setval = "research complete";
+															entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																	.ifPresent(capability -> {
+																		capability.researchstationtext = _setval;
+																		capability.syncPlayerVariables(entity);
+																	});
+														}
+														MinecraftForge.EVENT_BUS.unregister(this);
+													}
+												}.start(world, 200);
+											}
+										}
+									}
 								}
 							}
 						}

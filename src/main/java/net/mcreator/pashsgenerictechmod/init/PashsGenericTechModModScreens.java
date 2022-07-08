@@ -21,6 +21,7 @@ import net.mcreator.pashsgenerictechmod.client.gui.PlatingmachineGUIScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.OrepurifierguiScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.OilrefineryGUIScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.OilextractorguiScreen;
+import net.mcreator.pashsgenerictechmod.client.gui.MedkitrecipeguidebookScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.GuidebookteleporterstuningScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.GuidebookteleportersScreen;
 import net.mcreator.pashsgenerictechmod.client.gui.Guidebookpart9Screen;
@@ -99,6 +100,7 @@ public class PashsGenericTechModModScreens {
 			MenuScreens.register(PashsGenericTechModModMenus.SPEEDBOOTSRECIPE, SpeedbootsrecipeScreen::new);
 			MenuScreens.register(PashsGenericTechModModMenus.CRATE_GUI, CrateGUIScreen::new);
 			MenuScreens.register(PashsGenericTechModModMenus.CRATERECIPEBOOK, CraterecipebookScreen::new);
+			MenuScreens.register(PashsGenericTechModModMenus.MEDKITRECIPEGUIDEBOOK, MedkitrecipeguidebookScreen::new);
 		});
 	}
 }

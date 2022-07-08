@@ -2767,6 +2767,119 @@
         ]
       },
       "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Medkit",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkit",
+      "path": "~/medical_kit"
+    },
+    {
+      "name": "MedkitRightclicked",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkit_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/medical_kit"
+    },
+    {
+      "name": "Medkitrecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkitrecipe",
+      "path": "~/medical_kit"
+    },
+    {
+      "name": "Btndisplcond1",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "btndisplcond_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Textdisplaycond1",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textdisplaycond_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Medkitrecipeguidebook",
+      "type": "gui",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkitrecipeguidebook",
+      "path": "~/generictechmodguidencebook"
+    },
+    {
+      "name": "Turnpagemedkit",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turnpagemedkit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/generictechmodguidencebook"
     }
   ],
   "variable_elements": [
@@ -2846,6 +2959,7 @@
       "advancements.infiniteoil_yay.title": "Infinite oil",
       "item.pashs_generic_tech_mod.tindust": "Tin dust",
       "item.pashs_generic_tech_mod.curcuit": "Circuit",
+      "item.pashs_generic_tech_mod.medkit": "Medkit",
       "item.pashs_generic_tech_mod.refinedoil": "Refined oil",
       "item.pashs_generic_tech_mod.crushediron": "purified iron",
       "item.pashs_generic_tech_mod.advancedcurcuit": "Advanced circuit",
@@ -2954,6 +3068,10 @@
       },
       {
         "name": "crate",
+        "children": []
+      },
+      {
+        "name": "medical_kit",
         "children": []
       }
     ]

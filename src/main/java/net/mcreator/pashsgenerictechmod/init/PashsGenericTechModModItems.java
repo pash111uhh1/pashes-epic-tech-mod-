@@ -29,6 +29,7 @@ import net.mcreator.pashsgenerictechmod.item.RefinedoilItem;
 import net.mcreator.pashsgenerictechmod.item.OilyArmorItem;
 import net.mcreator.pashsgenerictechmod.item.OilcanfullItem;
 import net.mcreator.pashsgenerictechmod.item.OilcanItem;
+import net.mcreator.pashsgenerictechmod.item.MedkitItem;
 import net.mcreator.pashsgenerictechmod.item.IronplateItem;
 import net.mcreator.pashsgenerictechmod.item.HeatDissipatingElementItem;
 import net.mcreator.pashsgenerictechmod.item.GoldenplateItem;
@@ -101,6 +102,7 @@ public class PashsGenericTechModModItems {
 	public static final RegistryObject<Item> SPEED_BOOTS_ARMOR_BOOTS = REGISTRY.register("speed_boots_armor_boots",
 			() -> new Speed_bootsArmorItem.Boots());
 	public static final RegistryObject<Item> CRATE = block(PashsGenericTechModModBlocks.CRATE, PashsGenericTechModModTabs.TAB_PASHSGENERICTECHMOD);
+	public static final RegistryObject<Item> MEDKIT = REGISTRY.register("medkit", () -> new MedkitItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

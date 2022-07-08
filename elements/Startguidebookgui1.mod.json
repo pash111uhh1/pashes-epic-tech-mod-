@@ -260,6 +260,55 @@
           "x": 188,
           "y": 90
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "medkit",
+          "onClick": {
+            "name": "Turnpagemedkit"
+          },
+          "displayCondition": {
+            "name": "Btndisplcond1"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "medkit",
+          "x": 194,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "REQUIRES 30 ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Textdisplaycond1"
+          },
+          "name": "REQUIRES 30 ",
+          "x": 195,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RESEARCH POINTS",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Textdisplaycond1"
+          },
+          "name": "RESEARCH POINTS",
+          "x": 186,
+          "y": 112
+        }
       }
     ],
     "gridSettings": {

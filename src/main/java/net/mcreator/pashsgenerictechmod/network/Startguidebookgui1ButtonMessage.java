@@ -18,6 +18,7 @@ import net.mcreator.pashsgenerictechmod.procedures.TurnpagetospongecraftProcedur
 import net.mcreator.pashsgenerictechmod.procedures.TurnpagetospeedbootrecipeProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.TurnpagetoresearchProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.TurnpagetocrateProcedure;
+import net.mcreator.pashsgenerictechmod.procedures.TurnpagemedkitProcedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage22Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage19Procedure;
 import net.mcreator.pashsgenerictechmod.procedures.Turnpage12Procedure;
@@ -105,6 +106,10 @@ public class Startguidebookgui1ButtonMessage {
 		if (buttonID == 8) {
 
 			TurnpagetocrateProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			TurnpagemedkitProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

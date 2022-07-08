@@ -1,0 +1,134 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 237,
+    "height": 186,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookgui.png",
+          "use1Xscale": false,
+          "name": "bookgui.png",
+          "x": 94,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "medkit ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "medkit ",
+          "x": 207,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "grants 3 seconds of instant healing effect",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "grants 3 seconds of instant healing effect",
+          "x": 102,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "requires:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "requires:",
+          "x": 105,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "gold block x4",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "gold block x4",
+          "x": 104,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-",
+          "onClick": {
+            "name": "WeGoBackNowBish"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<-",
+          "x": 105,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "doktorr.png",
+          "use1Xscale": true,
+          "name": "doktorr.png",
+          "x": 206,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "golden carrot",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "golden carrot",
+          "x": 103,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "tin plate x4",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "tin plate x4",
+          "x": 102,
+          "y": 137
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
