@@ -558,7 +558,7 @@ public class ResearchProcedure {
 										}
 									} else {
 										if ((entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-												.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready == 30) {
+												.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready == 26) {
 											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 													&& _current.get() instanceof Map _slots) {
 												ItemStack _setstack = new ItemStack(PashsGenericTechModModItems.TIN_INGOT.get());
@@ -607,7 +607,7 @@ public class ResearchProcedure {
 															double _setval = (entity
 																	.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 																	.orElse(new PashsGenericTechModModVariables.PlayerVariables())).reaserchdonealready
-																	+ 1;
+																	+ 4;
 															entity.getCapability(PashsGenericTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 																	.ifPresent(capability -> {
 																		capability.reaserchdonealready = _setval;
